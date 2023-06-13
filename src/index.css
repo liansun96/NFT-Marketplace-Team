@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero-bg {
+    background-image: url("https://themebeyond.com/html/nftmak/assets/img/banner/banner_bg.jpg");
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .active{
+    @apply bg-gradient-to-r from-[#2a2846] to-[#23203d];
+  }
+
+  .icon-bg {
+    @apply bg-gradient-to-r from-[#2a2846] to-[#23203d];
+  }
+  
+  .button-grd{
+    @apply bg-gradient-to-r from-[#e039fd] to-[#6345ed];
+  }
+}
