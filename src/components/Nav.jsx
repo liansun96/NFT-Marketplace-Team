@@ -4,6 +4,7 @@ import { BsThreeDots } from "react-icons/bs";
 import { FiChevronDown } from "react-icons/fi";
 import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -62,7 +63,9 @@ const Nav = () => {
                           Creators
                         </li>
                         <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                          Market Single
+                          <Link to={'/marketsingle'}> 
+                             Market Single
+                          </Link>
                         </li>
                         <li className="hover:text-dark_blue px-2 py-2 duration-300">
                           Live Bidding
