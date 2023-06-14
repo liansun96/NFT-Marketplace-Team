@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: top center;
   }
-
+  
   .active{
     @apply bg-gradient-to-r from-[#2a2846] to-[#23203d];
   }
