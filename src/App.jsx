@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
-import Hero from "./components/Hero";
 import { Route, Router, Routes } from "react-router-dom";
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Sidebar />
 
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );
