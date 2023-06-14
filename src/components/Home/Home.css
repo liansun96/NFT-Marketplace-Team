@@ -18,7 +18,7 @@
 }
 
 .swiper .swiper-button-prev:after {
-  transform: scale(0.4);
+  transform: scale(0.3);
 }
 
 .swiper:hover .swiper-button-next {
@@ -41,5 +41,5 @@
 }
 
 .swiper .swiper-button-next:after {
-  transform: scale(0.4);
+  transform: scale(0.3);
 }
