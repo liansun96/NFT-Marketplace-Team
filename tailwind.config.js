@@ -13,6 +13,7 @@ export default {
         body_text: "#C9C9C9",
         heading_text: "#fff",
         header_border: "#322C50",
+        border: "#2c1933",
         icon: "#59606B",
         icon_border: "#2A2547",
         menu: "#D4CDCD",
