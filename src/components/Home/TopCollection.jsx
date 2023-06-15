@@ -12,7 +12,7 @@ const TopCollection = () => {
   return (
     <div className="bg-[#070b24] h-[80vh] flex items-center">
       <div className="w-[90%] mx-auto ">
-        <div className="flex items-center gap-2 mb-6">
+        <div className="flex items-center gap-2 mb-10">
           <h4 className="text-heading_text text-2xl font-semibold">
             Top Collection
           </h4>
@@ -35,7 +35,7 @@ const TopCollection = () => {
             className="mySwiper"
           >
             {topcollections?.map((topcollection) => (
-              <SwiperSlide>
+              <SwiperSlide key={topcollection.id}>
                 <TopCollectionCard topcollection={topcollection} />
               </SwiperSlide>
             ))}
