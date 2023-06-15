@@ -22,12 +22,12 @@ const Nav = () => {
               <BiSearch className="text-icon transform -scale-x-100" />
               <input
                 type="text"
-                className="w-[220px] py-2 focus:outline-none bg-transparent text-white placeholder:text-xs"
+                className="md:w-[200px] w-[220px] py-2 focus:outline-none bg-transparent text-white placeholder:text-xs"
                 placeholder="Search Artwork"
               />
             </div>
           </div>
-          <div className="flex items-center gap-10">
+          <div className="flex items-center md:gap-3 gap-8">
             <ul className="flex gap-8">
               {navLinks?.map((navLink) => (
                 <li
