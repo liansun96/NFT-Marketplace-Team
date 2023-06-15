@@ -108,7 +108,7 @@ const Nav = () => {
                 </div>
               </li>
             </ul>
-            <div className="transform duration-1000 transition hover:bg-gradient-to-l from-[#cc42e4] to-[#6345ed] bg-gradient-to-r from-[#bc3cd3] to-[#6345ed] p-1 rounded-full">
+            <div className="transform duration-1000 transition hover:bg-gradient-to-l bg-gradient-to-r from-[#bc3cd3] to-[#6345ed] p-1 rounded-full">
               <div className="border border-[#fff] border-dashed bg-transparent rounded-3xl">
                 <button className="px-5 py-3 text-sm font-bold text-heading_text">
                   WALLET CONNECT
