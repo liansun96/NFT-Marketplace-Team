@@ -11,6 +11,7 @@ export default {
         primary: "#1D1933",
         secondary: "#131129",
         info: "#0e1029",
+        warning:"#10112a",
         body_text: "#C9C9C9",
         heading_text: "#fff",
         header_border: "#322C50",

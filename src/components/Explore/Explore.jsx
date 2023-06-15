@@ -1,17 +1,21 @@
 import React from "react";
 import Nav from "../Nav";
-import First from "./First";
 import "./Explore.css";
 import Category from "./Category";
 import Artworks from "./Artworks";
 import FeatureOfTheWeek from "./FeatureOfTheWeek";
+import Hero from "./Hero";
 
 const Explore = () => {
   return (
-   <div className="pl-[110px]">
-     <section className="mx-auto h-[470px] explore-bg pt-8">
+   <div className="md:pl-[110px]">
+     <section className="md:h-[470px] h-[250px] explore-bg pt-8">
       <Nav/>
-      <First/>
+      <Hero/>
+    </section>
+
+    <section className="block md:hidden">
+
     </section>
 
     <section>

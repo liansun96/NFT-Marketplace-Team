@@ -4,8 +4,8 @@ import FeaturesCard from "./FeaturesCard";
 
 const FeatureOfTheWeek = () => {
   return (
-    <div className="bg-info">
-      <div className="px-16">
+    <div className="bg-warning">
+      <div className="p-3 md:px-16">
         <div className="pt-20">
           <div className="flex items-center gap-2">
             <h1 className="font-semibold text-2xl text-heading_text">
@@ -20,7 +20,7 @@ const FeatureOfTheWeek = () => {
             </div>
           </div>
 
-          <div className="flex justify-between gap-5 mt-10 pb-20">
+          <div className="flex flex-col md:flex-row gap-5 mt-10 pb-20">
             {features?.map((feature) => (
               <FeaturesCard  key={feature?.id} feature={feature}/>
             ))}

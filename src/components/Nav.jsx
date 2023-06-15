@@ -7,7 +7,7 @@ import { Animated } from "react-animated-css";
 
 const Nav = () => {
   return (
-    <div className="w-[90%] mx-auto border border-slate-900  p-[7px] rounded-xl">
+    <div className="w-[90%] mx-auto border border-slate-900  p-[7px] rounded-xl hidden md:block">
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-6">
           <div className="flex items-center gap-10">
