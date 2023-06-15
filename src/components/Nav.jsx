@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="w-[90%] mx-auto border border-slate-900  p-[7px] rounded-xl">
+    <div className="w-[98%] mx-auto border border-slate-900  p-[7px] rounded-xl">
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-6">
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-3">
             <img
               src={
                 "https://themebeyond.com/html/nftmak/assets/img/logo/naftmak.svg"
@@ -23,7 +23,7 @@ const Nav = () => {
               <BiSearch className="text-icon transform -scale-x-100" />
               <input
                 type="text"
-                className="w-[220px] py-2 focus:outline-none bg-transparent text-white placeholder:text-xs"
+                className="w-[180px] py-2 focus:outline-none bg-transparent text-white placeholder:text-xs"
                 placeholder="Search Artwork"
               />
             </div>
