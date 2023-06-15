@@ -4,12 +4,13 @@ import First from "./First";
 import "./Explore.css";
 import Category from "./Category";
 import Artworks from "./Artworks";
+import FeatureOfTheWeek from "./FeatureOfTheWeek";
 
 const Explore = () => {
   return (
    <div className="pl-[110px]">
-     <section className="mx-auto h-[470px] explore-bg">
-      <Nav />
+     <section className="mx-auto h-[470px] explore-bg pt-8">
+      <Nav/>
       <First/>
     </section>
 
@@ -19,6 +20,10 @@ const Explore = () => {
 
     <section>
         <Artworks/>
+    </section>
+
+    <section>
+        <FeatureOfTheWeek/>
     </section>
    </div>
   );
