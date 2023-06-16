@@ -31,12 +31,14 @@ const Nav = () => {
           <div className="flex items-center md:gap-3 gap-8">
             <ul className="flex gap-8">
               {navLinks?.map((navLink) => (
-                <li
-                  className="mt-[3px] text-heading_text text-sm tracking-wider cursor-pointer duration-300 hover:text-dark_blue"
-                  key={navLink.id}
-                >
-                  {navLink.title}
-                </li>
+                <Link to={navLink.link}>
+                  <li
+                    className="mt-[3px] text-heading_text text-sm tracking-wider cursor-pointer duration-300 hover:text-dark_blue"
+                    key={navLink.id}
+                  >
+                    {navLink.title}
+                  </li>
+                </Link>
               ))}
               <li>
                 <div className="group relative inline-flex">

@@ -9,12 +9,13 @@ const Testiomonail = () => {
   return (
     <div className="bg-[#070b24] py-10">
       <Swiper
+       
         loop={true}
         pagination={{ clickable: true }}
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className="py-10">
+        <SwiperSlide className=" py-10">
           <div className="w-[60%] mx-auto text-center space-y-6">
             <img
               className="w-[250px] mx-auto"

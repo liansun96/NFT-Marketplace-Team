@@ -4,14 +4,17 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    link: "/"
   },
   {
     id: "explore",
     title: "Explore",
+    link: "/explore"
   },
   {
     id: "collection",
     title: "Collection",
+    link: "/collection"
   },
 ];
 
@@ -92,6 +95,33 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection05.jpg",
     title: "NFT Painting",
+    price: 5.4,
+  },
+  {
+    id: "topcollection6",
+    profile:
+      "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
+    image:
+      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection09.jpg",
+    title: "Colorful Abstract",
+    price: 5.4,
+  },
+  {
+    id: "topcollection7",
+    profile:
+      "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
+    image:
+      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection10.jpg",
+    title: "Bid Collection",
+    price: 5.4,
+  },
+  {
+    id: "topcollection8",
+    profile:
+      "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
+    image:
+      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection11.jpg",
+    title: "NFT Collection",
     price: 5.4,
   },
 ];

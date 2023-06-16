@@ -9,10 +9,12 @@ import About from './About'
 import Testiomonail from './Testiomonail'
 import Footer from './Footer'
 import FeaturesOfTheWeek from './FeaturesOfTheWeek'
+import Rsidebar from '../Blog/Rsidebar'
 
 const Home = () => {
   return (
     <div className='md:pl-[110px]'>
+        <Rsidebar/>
         <Hero />
         <TopCollection/>
         <FeaturesOfTheWeek/>

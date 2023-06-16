@@ -13,9 +13,9 @@ const Sidebar = () => {
       <div></div>
 
       <div>
-        <ul className="flex flex-row md:flex-col gap-3 space-y-6 mt-6">
+        <ul className="flex flex-row md:flex-col gap-3 space-y-3 mt-6">
           <img
-            className="w-7 mt-10  mx-auto"
+            className="w-7 mt-5  mx-auto"
             src="https://themebeyond.com/html/nftmak/assets/img/logo/logo.png"
             alt=""
           />
@@ -50,7 +50,7 @@ const Sidebar = () => {
               <img className="w-8 " src={settings} alt="" />
             </div>
           </li>
-          <li className="!mt-[80px]">
+          <li className="!mt-[50px]">
             <div className="w-[55px] rounded-[9px] border border-icon_border p-3 transition ease-out hover:icon-bg bg-secondary">
               <img className="w-8 " src={toolMarquee} alt="" />
             </div>

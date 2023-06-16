@@ -10,10 +10,10 @@ import "swiper/css/navigation";
 
 const TopCollection = () => {
   return (
-    <div className="bg-[#070b24] h-[80vh] flex items-center">
+    <div className="bg-[#070b24] h-[90vh] flex items-center">
       <div className="w-[90%] mx-auto ">
-        <div className="flex items-center gap-2 mb-10">
-          <h4 className="text-heading_text text-2xl font-semibold">
+        <div className="flex items-center gap-2 mb-10 translate-y-[70px]">
+          <h4 className="text-heading_text text-2xl font-semibold ">
             Top Collection
           </h4>
           <img
@@ -21,17 +21,13 @@ const TopCollection = () => {
             alt="topseller-image"
           />
         </div>
-        <div className="">
+        <div className="top-collection">
           <Swiper
             slidesPerView={4}
-            spaceBetween={20}
+            spaceBetween={30}
             loop={true}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
             navigation={true}
-            modules={[Autoplay, FreeMode, Navigation]}
+            modules={[Navigation]}
             className="mySwiper"
           >
             {topcollections?.map((topcollection) => (
