@@ -9,7 +9,7 @@ import toolMarquee from "../icons/tool-marquee.svg";
 
 const Sidebar = () => {
   return (
-    <div className="hidden md:block px-6 py-3 w-[110px] bg-primary h-screen fixed top-0 left-0">
+    <div className="hidden lg:block px-6 py-3 w-[110px] bg-primary h-screen fixed top-0 left-0">
       <div>
         <img
           className="w-7 mt-10  mx-auto"

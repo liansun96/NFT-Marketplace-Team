@@ -21,6 +21,7 @@ export default {
         menu: "#D4CDCD",
         purple: "#E039FD",
         dark_blue: "#6345ED",
+        media_bg:"#28243F",
         dark: {
           100: "#52575b",
           200: "#3c4043",

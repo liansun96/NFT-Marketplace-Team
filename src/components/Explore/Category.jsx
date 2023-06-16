@@ -3,7 +3,7 @@ import React from "react";
 const Category = () => {
   return (
     <div className="bg-primary">
-      <div className="flex flex-wrap justify-center items-center p-5 md:p-0 gap-5 md:gap-10 md:h-[80px] ">
+      <div className="flex flex-wrap justify-center items-center px-16 py-5 lg:p-0 gap-5 lg:gap-10 md:h-[100px] lg:h-[80px]">
         <div className="flex gap-3 justify-center items-center">
           <div className="">
             <img

@@ -7,8 +7,8 @@ import ArtworkCard from "./ArtworkCard";
 const Artworks = ({ isToggle, onToggle }) => {
   return (
     <div className="bg-info">
-      <div className="p-3 md:p-16">
-        <div className="flex gap-2 items-center ">
+      <div className="p-3 md:p-16 lg:p-16  3xl:w-[70%] mx-auto">
+        <div className="flex  gap-2 items-center ">
           <h1 className="text-2xl font-semibold  text-heading_text">
             Artworks
           </h1>
@@ -22,7 +22,7 @@ const Artworks = ({ isToggle, onToggle }) => {
         </div>
 
         <div className="mt-16">
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-7">
+          <div className="flex flex-wrap flex-col md:flex-row items-start md:items-center gap-7">
             <div className="flex items-center gap-3">
               <h1 className="font-semibold uppercase text-body_text">
                 filter by:
@@ -108,7 +108,7 @@ const Artworks = ({ isToggle, onToggle }) => {
         </div>
 
         <div className="mt-10">
-          <div className="flex flex-wrap items-center gap-6">
+          <div className="flex flex-wrap justify-center items-center gap-6">
             {artworks?.map((artwork) => (
               <ArtworkCard key={artwork.id} artwork={artwork} />
             ))}
