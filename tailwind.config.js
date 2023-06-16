@@ -7,6 +7,10 @@ export default {
         "3xl": "1920px",
         "4xl": "2560px",
       },
+      spacing: {
+        '100': '25rem',
+        '104': '26rem',
+      },
       colors: {
         primary: "#1D1933",
         secondary: "#131129",
