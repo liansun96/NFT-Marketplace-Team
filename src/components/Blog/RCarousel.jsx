@@ -18,19 +18,19 @@ export default function RCarousel() {
         modules={[Autoplay, Pagination, EffectFade]}
         className="my-10"
       >
-        <SwiperSlide>
+        <SwiperSlide className="pb-10">
           <img
             src="https://themebeyond.com/html/nftmak/assets/img/others/sidebar_img01.png"
             alt=""
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="pb-10">
           <img
             src="https://themebeyond.com/html/nftmak/assets/img/others/sidebar_img03.png"
             alt=""
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="pb-10">
           <img
             src="https://themebeyond.com/html/nftmak/assets/img/others/sidebar_img02.png"
             alt=""
