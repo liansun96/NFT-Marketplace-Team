@@ -25,22 +25,22 @@ const Footer = () => {
                 veritatis sequi doloribus fuga.
               </p>
               <div className="flex items-center gap-2">
-                <Link to='https://www.facebook.com/'>
+                <Link to='https://www.facebook.com/' target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiFacebookFill className="text-heading_text text-xl" />
                   </div>
                 </Link>
-                <Link to={'https://www.twitter.com'}>
+                <Link to={'https://www.twitter.com'} target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiTwitterFill className="text-heading_text text-xl" />
                   </div>
                 </Link>
-                <Link to={'https://www.instagram.com'}>
+                <Link to={'https://www.instagram.com'} target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiInstagramFill className="text-heading_text text-xl" />
                   </div>
                 </Link>
-                <Link to={'https://www.pinterest.com'}>
+                <Link to={'https://www.pinterest.com'} target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiPinterestFill className="text-heading_text text-xl" />
                   </div>
