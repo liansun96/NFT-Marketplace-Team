@@ -6,7 +6,7 @@ import { topSellers } from "../../constants/index";
 
 const Hero = () => {
   return (
-    <div className="hero-bg ms-auto h-[130vh] py-8">
+    <div className="hero-bg ms-auto h-[135vh] pt-8">
       <Nav />
       <div className="h-[85vh] flex">
         <div className="w-[80%] mx-auto self-center space-y-6">
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto">
-        <div className="flex items-center gap-2 mb-6">
+        <div className="flex items-center gap-2 mb-10">
           <h4 className="text-heading_text text-2xl font-semibold">
             Top Seller
           </h4>
@@ -37,7 +37,7 @@ const Hero = () => {
             alt="topseller-image"
           />
         </div>
-        <div className="flex justify-between gap-2 mb-6">
+        <div className="flex justify-between gap-2">
           {topSellers?.map((topSeller) => (
             <TopSellerCard key={topSeller.id} topSeller={topSeller} />
           ))}

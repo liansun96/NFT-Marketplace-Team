@@ -1,14 +1,14 @@
 import React from "react";
 import { IoMdHeart } from "react-icons/io";
 
-const TopCollectionCard = ({topcollection}) => {
+const ExploreProductCard = ({explordPd}) => {
   return (
     <div className="lg:w-[260px] lg:h-[390px] 2xl:w-[290px] 2xl:h-[430px] 3xl:w-[330px] h-[430px] p-5  bg-primary rounded-xl space-y-3">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img
             className="w-7 h-7 rounded-full"
-            src={topcollection.profile}
+            src={explordPd.profile}
             alt=""
           />
           <p className="font-bold text-sm text-slate-500">By Jonson</p>
@@ -21,13 +21,13 @@ const TopCollectionCard = ({topcollection}) => {
       </div>
       <img
         className="rounded-xl"
-        src={topcollection.image}
+        src={explordPd.image}
         alt=""
       />
       <div className="flex justify-between items-center">
-        <h5 className="text-lg font-bold text-heading_text">{topcollection.title}</h5>
+        <h5 className="text-lg font-bold text-heading_text">{explordPd.title}</h5>
         <p className="text-body_text text-sm">
-          {topcollection.price}{"  "}
+          {explordPd.price}{"  "}
           <span className="duration-300 text-purple hover:text-dark_blue">
             Eth
           </span>
@@ -51,4 +51,4 @@ const TopCollectionCard = ({topcollection}) => {
   );
 };
 
-export default TopCollectionCard;
+export default ExploreProductCard;
