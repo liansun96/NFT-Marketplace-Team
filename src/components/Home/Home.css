@@ -43,3 +43,12 @@
 .swiper .swiper-button-next:after {
   transform: scale(0.3);
 }
+
+.swiper .swiper-pagination {
+  transform: translateY(10px);
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet{
+  background-color:  #E039FD!important;
+  transform: scale(130%);
+}

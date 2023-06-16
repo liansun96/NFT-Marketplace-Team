@@ -1,3 +1,5 @@
+import {FaDownload} from "react-icons/fa"
+
 export const navLinks = [
   {
     id: "home",
@@ -208,6 +210,54 @@ export const exploreProduct = [
   },
 ]
 
+export const features = [
+  {
+    id: "feature1",
+    profile:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_avatar.png",
+    title: "Random Abstract",
+    name: "Tanbuok",
+    image1:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_img01.png",
+    image2:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_img02.png",
+    image3:
+      " https://themebeyond.com/html/nftmak/assets/img/others/features_img03.png",
+    image4:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_img04.png",
+  },
+  {
+    id: "feature2",
+    profile:
+      " https://themebeyond.com/html/nftmak/assets/img/others/features_avatar02.png",
+    title: "Colorful Abstract",
+    name: "Johson",
+    image1:
+      " https://themebeyond.com/html/nftmak/assets/img/others/s_features_img01.png",
+    image2:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_img02.png",
+    image3:
+      " https://themebeyond.com/html/nftmak/assets/img/others/s_features_img03.png",
+    image4:
+      " https://themebeyond.com/html/nftmak/assets/img/others/s_features_img04.png",
+  },
+  {
+    id: "feature3",
+    profile:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_avatar03.png",
+    title: "Deploy Abstract",
+    name: "Marcus",
+    image1:
+      " https://themebeyond.com/html/nftmak/assets/img/others/t_features_img01.png",
+    image2:
+      "https://themebeyond.com/html/nftmak/assets/img/others/features_img02.png",
+    image3:
+      " https://themebeyond.com/html/nftmak/assets/img/others/features_img03.png",
+    image4:
+      "https://themebeyond.com/html/nftmak/assets/img/others/t_features_img04.png",
+  },
+];
+
 export const latestNewsUpdate = [
 {
   id: "latestNewsUpdate1",
@@ -230,4 +280,28 @@ export const latestNewsUpdate = [
   date : "Jan 19, 2022",
   title : "Crypto enthusiasts on a single platform to create",
 },
+]
+
+export const abouts = [
+  {
+    id: "about1",
+    icon: "FaDownload",
+    title: "Free",
+    description : "only two download",
+  },
+  {
+    id: "about2",
+    title: "Unlimited",
+    description : "Personal & commercial use",
+  },
+  {
+    id: "about3",
+    title: "Support",
+    description : "You can download",
+  },
+  {
+    id: "about4",
+    title: "Private",
+    description : "Personal data collection",
+  },
 ]

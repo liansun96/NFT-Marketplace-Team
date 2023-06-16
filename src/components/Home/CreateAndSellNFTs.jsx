@@ -4,7 +4,7 @@ import CreateAndSellNFTCard from "./CreateAndSellNFTCard";
 
 const CreateAndSellNFTs = () => {
   return (
-    <div className="bg-[#070b24] h-[70vh] flex items-center">
+    <div className="bg-[#070b24] h-[60vh] flex items-center">
       <div className="w-[90%] mx-auto">
         <div className="flex items-center gap-2 mb-28">
           <h4 className="text-heading_text text-2xl font-semibold">
