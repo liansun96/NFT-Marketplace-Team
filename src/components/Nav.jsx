@@ -4,6 +4,7 @@ import { BsThreeDots } from "react-icons/bs";
 import { FiChevronDown } from "react-icons/fi";
 import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -93,9 +94,11 @@ const Nav = () => {
                   <span className="group-hover:block hidden cursor-pointer w-[260px] py-7 z-10 absolute top-5 -left-4">
                     <div className="bg-primary border border-header_border custom-shoadow-lg px-3 py-4">
                       <ul className="text-heading_text text-sm tracking-wider space-y-[3px]">
-                        <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                          Our Blog
-                        </li>
+                        <Link to={"blog"}>
+                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                            Our Blog
+                          </li>
+                        </Link>
                         <li className="hover:text-dark_blue px-2 py-2 duration-300">
                           Blog Details
                         </li>
