@@ -30,6 +30,7 @@
   transition: 150ms;
 }
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

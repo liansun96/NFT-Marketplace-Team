@@ -1,20 +1,20 @@
-import {FaDownload} from "react-icons/fa"
+import { FaDownload } from "react-icons/fa";
 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
-    link: "/"
+    link: "/",
   },
   {
     id: "explore",
     title: "Explore",
-    link: "/explore"
+    link: "/explore",
   },
   {
     id: "collection",
     title: "Collection",
-    link: "/collection"
+    link: "/collection",
   },
 ];
 
@@ -28,7 +28,7 @@ export const topSellers = [
   },
   {
     id: "topSeller2",
-    title: "Create And Sell",
+    name: "Mazanov Sky",
     description:
       "Wallet that is functional for NFT purchasing. You have Coinbase account at this point.",
     image:
@@ -238,7 +238,7 @@ export const exploreProduct = [
     title: "NFT Collection",
     price: 5.4,
   },
-]
+];
 
 export const features = [
   {
@@ -289,49 +289,52 @@ export const features = [
 ];
 
 export const latestNewsUpdate = [
-{
-  id: "latestNewsUpdate1",
-  name : "Admin",
-  bgImage : "https://themebeyond.com/html/nftmak/assets/img/blog/news_thumb01.png",
-  date : "Jan 12, 2022",
-  title : "Top 5 Most Popular NFT Games world most powerful ?",
-},
-{
-  id: "latestNewsUpdate2",
-  name : "Admin",
-  bgImage : "https://themebeyond.com/html/nftmak/assets/img/blog/news_thumb02.png",
-  date : "Jan 19, 2022",
-  title : "NFTs, rare digital items worlds crypto collectibles",
-},
-{
-  id: "latestNewsUpdate3",
-  name : "Admin",
-  bgImage : "https://themebeyond.com/html/nftmak/assets/img/blog/news_thumb03.png",
-  date : "Jan 19, 2022",
-  title : "Crypto enthusiasts on a single platform to create",
-},
-]
+  {
+    id: "latestNewsUpdate1",
+    name: "Admin",
+    bgImage:
+      "https://themebeyond.com/html/nftmak/assets/img/blog/news_thumb01.png",
+    date: "Jan 12, 2022",
+    title: "Top 5 Most Popular NFT Games world most powerful ?",
+  },
+  {
+    id: "latestNewsUpdate2",
+    name: "Admin",
+    bgImage:
+      "https://themebeyond.com/html/nftmak/assets/img/blog/news_thumb02.png",
+    date: "Jan 19, 2022",
+    title: "NFTs, rare digital items worlds crypto collectibles",
+  },
+  {
+    id: "latestNewsUpdate3",
+    name: "Admin",
+    bgImage:
+      "https://themebeyond.com/html/nftmak/assets/img/blog/news_thumb03.png",
+    date: "Jan 19, 2022",
+    title: "Crypto enthusiasts on a single platform to create",
+  },
+];
 
 export const abouts = [
   {
     id: "about1",
     icon: "FaDownload",
     title: "Free",
-    description : "only two download",
+    description: "only two download",
   },
   {
     id: "about2",
     title: "Unlimited",
-    description : "Personal & commercial use",
+    description: "Personal & commercial use",
   },
   {
     id: "about3",
     title: "Support",
-    description : "You can download",
+    description: "You can download",
   },
   {
     id: "about4",
     title: "Private",
-    description : "Personal data collection",
+    description: "Personal data collection",
   },
-]
+];

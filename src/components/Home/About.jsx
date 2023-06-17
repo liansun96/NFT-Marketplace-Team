@@ -6,9 +6,9 @@ import {RiSettings4Fill} from "react-icons/ri"
 
 const About = () => {
   return (
-    <div className="bg-[#070b24] h-[50vh] flex items-center">
+    <div className="bg-[#070b24] h-[120vh] md:h-[50vh] flex items-center">
       <div className="w-[90%] mx-auto">
-        <div className="flex justify-between gap-2 mb-6">
+        <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-2 mb-6">
           <div className="relative duration-700 hover:-translate-y-5 lg:w-[260px] 2xl:w-[300px] 3xl:w-[370px] h-[180px] bg-primary rounded-xl p-7 space-y-5">
             <div className="flex justify-center items-center w-[50px] h-[50px] rounded-full bg-purple">
               <HiFolderDownload className="text-xl text-white" />

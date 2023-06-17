@@ -15,7 +15,7 @@ const LatestNewsUpdate = () => {
             alt="explore-product-image"
           />
         </div>
-        <div className="flex justify-between gap-6">
+        <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-6">
           {latestNewsUpdate?.map((latestUpd) => (
             <LatestNewsUpdateCard key={latestUpd.id} latestUpd={latestUpd} />
           ))}

@@ -12,7 +12,7 @@ const TopCollection = () => {
   return (
     <div className="bg-[#070b24] h-[90vh] flex items-center">
       <div className="w-[90%] mx-auto ">
-        <div className="flex items-center gap-2 mb-10 translate-y-[70px]">
+        <div className="flex items-center gap-2 mb-10 translate-y-[100px]">
           <h4 className="text-heading_text text-2xl font-semibold ">
             Top Collection
           </h4>
@@ -28,7 +28,21 @@ const TopCollection = () => {
             loop={true}
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper"
+            className="mySwiper hidden md:block"
+          >
+            {topcollections?.map((topcollection) => (
+              <SwiperSlide key={topcollection.id}>
+                <TopCollectionCard topcollection={topcollection} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={30}
+            loop={true}
+            navigation={true}
+            modules={[Navigation]}
+            className="mySwiper block md:hidden"
           >
             {topcollections?.map((topcollection) => (
               <SwiperSlide key={topcollection.id}>
