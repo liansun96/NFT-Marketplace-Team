@@ -11,24 +11,26 @@ import Nav from "./Nav";
 
 const MarketSingle = () => {
   return (
-    <div className="ms-[98px] p-4 bg-[#070B24]">
+    // <div className="ms-[98px] p-4 w-full bg-[#070B24]">
+    <div className="sm:ms-[98px] p-4  bg-[#070B24]">
       <div className="mb-6 my-5">
         <Nav />
       </div>
-      <div className="my-6 flex justify-between px-4">
+
+      <div className="my-6 flex justify-between sm:px-4">
         <div className="">
-          <h1 className="p-4 text-gray-300 px-6 text-sm rounded-full  hover:bg-[#E039FD] duration-200 bg-[#241F3D] font-semibold">
+          <h1 className="sm:p-4 p-2 text-gray-300 px-4 sm:px-6 text-xs sm:text-sm rounded-full  hover:bg-[#E039FD] duration-200 bg-[#241F3D] font-semibold">
             GO BACK TO HOME
           </h1>
         </div>
         <div className="flex items-center">
-          <h1 className="font-semibold px-1 mx-1  hover:text-[#E039FD]  duration-200 text-gray-300 text-sm">
+          <h1 className=" sm:px-1 mx-1  hover:text-[#E039FD]  duration-200 text-gray-300 text-sm">
             Home
           </h1>
-          <h1 className="font-bold px-1 mx-1 text-gray-300  ">
+          <h1 className="font-bold sm:px-1 mx-1 text-gray-300  ">
             <AiOutlineRight />
           </h1>
-          <h1 className="font-semibold px-1 mx-1  hover:text-[#E039FD] duration-200 text-gray-300 text-sm">
+          <h1 className=" sm:px-1 mx-1  hover:text-[#E039FD] duration-200 text-gray-300 text-sm">
             Product Details
           </h1>
         </div>

@@ -28,6 +28,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components {
   .hero-bg {
     background-image: url("https://themebeyond.com/html/nftmak/assets/img/banner/banner_bg.jpg");
