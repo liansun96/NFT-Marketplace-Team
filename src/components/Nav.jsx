@@ -2,6 +2,7 @@ import React from "react";
 import { BiSearch } from "react-icons/bi";
 import { BsThreeDots } from "react-icons/bs";
 import { FiChevronDown } from "react-icons/fi";
+import { FaWallet } from "react-icons/fa";
 import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
 import { Link } from "react-router-dom";
@@ -28,8 +29,9 @@ const Nav = () => {
               />
             </div>
           </div>
-          <div className="flex items-center gap-10">
-            <ul className="flex gap-8">
+          <div className=" hidden md:flex items-center gap-4 xl:gap-10">
+            <ul className="xl:gap-8 gap-5 hidden lg:flex">
+              {/* <ul className="flex xl:gap-8 gap-5 hidden"> */}
               {navLinks?.map((navLink) => (
                 <li
                   className="mt-[3px] text-heading_text text-sm tracking-wider cursor-pointer duration-300 hover:text-dark_blue"
@@ -63,9 +65,7 @@ const Nav = () => {
                           Creators
                         </li>
                         <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                          <Link to={'/marketsingle'}> 
-                             Market Single
-                          </Link>
+                          <Link to={"/marketsingle"}>Market Single</Link>
                         </li>
                         <li className="hover:text-dark_blue px-2 py-2 duration-300">
                           Live Bidding
@@ -108,10 +108,18 @@ const Nav = () => {
                 </div>
               </li>
             </ul>
-            <div className="transform duration-1000 transition hover:bg-gradient-to-l bg-gradient-to-r from-[#bc3cd3] to-[#6345ed] p-1 rounded-full">
+          
+            <div className="hidden xl:block transform duration-1000 transition hover:bg-gradient-to-l bg-gradient-to-r from-[#bc3cd3] to-[#6345ed] p-1 rounded-full">
               <div className="border border-[#fff] border-dashed bg-transparent rounded-3xl">
                 <button className="px-5 py-3 text-sm font-bold text-heading_text">
                   WALLET CONNECT
+                </button>
+              </div>
+            </div>
+            <div className="xl:hidden transform duration-1000 transition hover:bg-gradient-to-l bg-gradient-to-r from-[#bc3cd3] to-[#6345ed] p-1 rounded-full">
+              <div className="border border-[#fff] border-dashed bg-transparent rounded-3xl">
+                <button className="p-2   text-sm font-bold text-heading_text">
+                  <FaWallet />
                 </button>
               </div>
             </div>

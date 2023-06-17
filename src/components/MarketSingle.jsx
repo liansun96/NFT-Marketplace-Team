@@ -259,7 +259,7 @@ const MarketSingle = () => {
             <div className="grid grid-cols-8 border-b-2 mb-3 border-gray-800 py-2 pb-4">
               <div className="col-span-3 xl:col-span-2 md:max-lg:col-span-3">
                 <NavLink
-                  to="bid"
+                  to=" "
                   className={({ isActive }) =>
                     isActive
                       ? "inline font-semibold text-lg font-[poppins] text-transparent bg-clip-text bg-gradient-to-r from-[#5338B5] to-[#DF39FD]"
