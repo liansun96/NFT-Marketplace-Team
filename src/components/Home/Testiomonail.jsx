@@ -16,7 +16,7 @@ const Testiomonail = () => {
         className="mySwiper"
       >
         <SwiperSlide className=" py-10">
-          <div className="w-[60%] mx-auto text-center space-y-6">
+          <div className="w-[90%] md:w-[60%] mx-auto text-center space-y-6">
             <img
               className="w-[250px] mx-auto"
               src={
@@ -44,7 +44,7 @@ const Testiomonail = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-10">
-          <div className="w-[60%] mx-auto text-center space-y-6">
+          <div className="w-[90%] md:w-[60%] mx-auto text-center space-y-6">
             <img
               className="w-[250px] mx-auto"
               src={
@@ -72,7 +72,7 @@ const Testiomonail = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="py-10">
-          <div className="w-[60%] mx-auto text-center space-y-6">
+          <div className="w-[90%] md:w-[60%] mx-auto text-center space-y-6">
             <img
               className="w-[250px] mx-auto"
               src={

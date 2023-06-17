@@ -5,11 +5,12 @@ import { FiChevronDown } from "react-icons/fi";
 import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
 import { Link } from "react-router-dom";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 const Nav = () => {
   return (
     <div className="w-[90%] mx-auto border border-slate-800  p-[7px] rounded-xl">
-      <div className="py-6 md:py-4 bg-primary  rounded-lg">
+      <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-6">
           <div className="flex items-center gap-10">
             <img
@@ -18,6 +19,7 @@ const Nav = () => {
               }
               alt=""
             />
+            <HiMenuAlt3 className="block md:hidden text-white text-4xl ms-28"/>
             <div className="h-[31px] w-[4px] rounded-[3px] bg-header_border hidden md:block"></div>
             <div className="hidden md:block">
               <div className="flex gap-3 px-2 items-center border border-[#322c50] border-dashed rounded bg-secondary">
