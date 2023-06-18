@@ -30,19 +30,19 @@ const FeaturesCard = ({ feature }) => {
       </div>
       <div className="flex items-center gap-3 mt-5">
         <div className="">
-          <img src={feature?.image1} className="md:w-[302px]" alt="" />
+          <img src={feature?.image1} className="md:w-[335px]" alt="" />
         </div>
         <div className="flex flex-col justify-between gap-3 items-center">
           <div className="flex items-center gap-3">
             <div>
-              <img src={feature?.image2} className="md:w-[150px]" alt="" />
+              <img src={feature?.image2} className="md:w-[165px]" alt="" />
             </div>
             <div>
-              <img src={feature?.image3} className="md:w-[150px]" alt="" />
+              <img src={feature?.image3} className="md:w-[165px]" alt="" />
             </div>
           </div>
           <div className="">
-            <img src={feature?.image4} className="md:w-[295px]" alt="" />
+            <img src={feature?.image4} className="md:w-[340px]" alt="" />
           </div>
         </div>
       </div>

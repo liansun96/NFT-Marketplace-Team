@@ -23,7 +23,7 @@ const Nav = () => {
             />
             <div className="h-[31px] w-[4px] rounded-[3px] bg-header_border hidden md:block"></div>
             <div className="hidden md:block">
-              <div className="flex gap-3 px-2 items-center border border-[#322c50] border-dashed rounded bg-secondary">
+              <div className="flex gap-3 px-2 items-center border border-[#322C50] border-dashed rounded bg-secondary">
                 <BiSearch className="text-icon transform -scale-x-100" />
                 <input
                   type="text"
@@ -119,7 +119,7 @@ const Nav = () => {
                   </div>
                 </li>
               </ul>
-              <div className="transform duration-1000 transition hover:bg-gradient-to-l from-[#cc42e4] to-[#6345ed] bg-gradient-to-r from-[#bc3cd3] to-[#6345ed] p-1 rounded-full">
+              <div className="transform duration-1000 transition hover:bg-gradient-to-l from-[#CC42E4] to-[#6345ED] bg-gradient-to-r from-[#BC3CD3] to-[#6345ED] p-1 rounded-full">
                 <div className="border border-[#fff] border-dashed bg-transparent rounded-3xl">
                   <button className="px-5 py-3 text-sm font-bold text-heading_text">
                     WALLET CONNECT
@@ -136,5 +136,4 @@ const Nav = () => {
     </div>
   );
 };
-
 export default Nav;

@@ -7,7 +7,6 @@ import crown from "../icons/crown.svg";
 import settings from "../icons/settings.svg";
 import toolMarquee from "../icons/tool-marquee.svg";
 import "./Sidebar.css";
-
 const Sidebar = () => {
   return (
     <div className="flex flex-row md:flex-col px-6 py-3 w-screen h-[90px] md:w-[110px] md:h-screen bg-primary  fixed -bottom-2 md:top-0 left-0 custom-shadow z-10 overflow-x-scroll">

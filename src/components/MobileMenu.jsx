@@ -5,8 +5,6 @@ import {
   FaTimes,
   FaTwitter,
   FaYoutube,
-  FaAngleDown,
-  FaAngleLeft,
   FaAngleDoubleLeft,
 } from "react-icons/fa";
 import { HiChevronDown } from "react-icons/hi";
@@ -175,10 +173,5 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
     </div>
   );
 };
-export default MobileMenu;
 
-// className={`${
-//     isOpen
-//       ? "w-[0px] mobile-nav  -translate-x-[500px]"
-//       : "w-full md:w-[330px] block mobile-nav"
-//   } transform duration-700 `}
+export default MobileMenu;
