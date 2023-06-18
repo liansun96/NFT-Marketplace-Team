@@ -9,8 +9,8 @@ const Footer = () => {
     <div className="mb-[80px] md:mb-0">
       <div className="bg-primary ">
         <div className="p-5 pt-16 lg:py-20 lg:px-16">
-          <div className="flex flex-wrap ms:flex-col lg:flex-row justify-start items-start gap-24 font-Poppins">
-            <div className="flex flex-col gap-9 items-start md:w-[23%]">
+          <div className="flex flex-wrap ms:flex-col lg:flex-row justify-start items-start gap-20 font-Poppins">
+            <div className="flex flex-col gap-9 items-start md:w-[22%]">
               <div className="">
                 <img
                   src="https://themebeyond.com/html/nftmak/assets/img/logo/logo.png"

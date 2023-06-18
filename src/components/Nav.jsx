@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiSearch } from "react-icons/bi";
 import { BsThreeDots } from "react-icons/bs";
 import { FiChevronDown } from "react-icons/fi";
@@ -6,20 +6,21 @@ import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
 import { Link } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
+import MobileMenu from "./MobileMenu";
 
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(true);
   return (
-    <div className="w-[90%] mx-auto border border-slate-800  p-[7px] rounded-xl">
+    <div className="w-[90%] mx-auto border border-slate-800  p-[7px] rounded-xl relative">
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-6">
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-6">
             <img
               src={
                 "https://themebeyond.com/html/nftmak/assets/img/logo/naftmak.svg"
               }
               alt=""
             />
-            <HiMenuAlt3 className="block md:hidden text-white text-4xl ms-28"/>
             <div className="h-[31px] w-[4px] rounded-[3px] bg-header_border hidden md:block"></div>
             <div className="hidden md:block">
               <div className="flex gap-3 px-2 items-center border border-[#322c50] border-dashed rounded bg-secondary">
@@ -30,6 +31,9 @@ const Nav = () => {
                   placeholder="Search Artwork"
                 />
               </div>
+            </div>
+            <div onClick={() => setIsOpen(!isOpen)}>
+              <HiMenuAlt3 className="block md:hidden cursor-pointer text-white text-4xl ms-32" />
             </div>
           </div>
           <div className="hidden md:block">
@@ -125,6 +129,9 @@ const Nav = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="absolute top-0 right-0 block md:hidden">
+        <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </div>
   );

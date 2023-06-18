@@ -36,6 +36,11 @@
 @tailwind utilities;
 
 @layer components {
+
+  .drop {
+    @apply bg-primary duration-300 origin-top;
+  }
+
   .hero-bg {
     background-image: url("https://themebeyond.com/html/nftmak/assets/img/banner/banner_bg.jpg");
     background-size: cover;

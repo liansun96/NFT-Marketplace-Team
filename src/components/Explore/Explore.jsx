@@ -12,7 +12,7 @@ const Explore = () => {
   return (
     <div className="lg:pl-[110px]">
       <Rsidebar/>
-      <section className="md:h-[470px] h-[250px] explore-bg pt-8">
+      <section className="md:h-[470px] h-[250px] explore-bg pt-8 bg-[#070B24]">
         <Nav />
         <Hero />
       </section>
