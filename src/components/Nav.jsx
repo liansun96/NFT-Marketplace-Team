@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="w-[98%] mx-auto border border-slate-900  p-[7px] rounded-xl">
+
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-6">
           <div className="flex items-center gap-3">
@@ -41,7 +42,6 @@ const Nav = () => {
                   >
                     {navLink.title}
                   </li>
-                ))}
                 <li>
                   <div className="group relative inline-flex">
                     <div

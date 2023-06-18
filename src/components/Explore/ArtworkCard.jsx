@@ -1,17 +1,17 @@
 import React from "react";
 import { IoMdHeart } from "react-icons/io";
 
-const TopCollectionCard = ({topcollection}) => {
+const ArtworkCard = ({ artwork }) => {
   return (
-    <div className="lg:w-[260px] lg:h-[390px] 2xl:w-[290px] 2xl:h-[430px] 3xl:w-[330px] h-[470px] p-5  bg-primary rounded-xl space-y-3">
+    <div className="flex flex-col gap-4 px-5 py-4  bg-primary rounded-xl shadow-lg">
       <div className="flex justify-between items-center">
-        <div className="flex items-center gap-2">
-          <img
-            className="w-7 h-7 rounded-full"
-            src={topcollection.profile}
-            alt=""
-          />
-          <p className="font-bold text-sm text-slate-500">By Jonson</p>
+        <div className="flex items-center gap-2 cursor-pointer text-sm font-semibold">
+          <div className="">
+            <img src={artwork?.profile} alt="" />
+          </div>
+          <p className="text-purple">
+            By <span className="text-slate-500">Jonson</span>
+          </p>
         </div>
         <div className="flex item gap-1">
           <div className="w-[11px] h-[11px] rounded-full bg-slate-700"></div>
@@ -19,15 +19,20 @@ const TopCollectionCard = ({topcollection}) => {
           <div className="w-[11px] h-[11px] rounded-full bg-slate-300"></div>
         </div>
       </div>
-      <img
-        className="rounded-xl"
-        src={topcollection.image}
-        alt=""
-      />
-      <div className="flex justify-between items-center">
-        <h5 className="text-lg font-bold text-heading_text">{topcollection.title}</h5>
+      <div className="">
+        <img
+          src={artwork?.image}
+          className="md:w-[267px] lg:w-[260px] rounded-lg"
+          alt=""
+        />
+      </div>
+      <div className="flex justify-between items-center py-2">
+        <h5 className="font-semibold text-heading_text cursor-pointer">
+          {artwork.title}
+        </h5>
         <p className="text-body_text text-sm">
-          {topcollection.price}{"  "}
+          {artwork.price}
+          {"  "}
           <span className="duration-300 text-purple hover:text-dark_blue">
             Eth
           </span>
@@ -51,4 +56,4 @@ const TopCollectionCard = ({topcollection}) => {
   );
 };
 
-export default TopCollectionCard;
+export default ArtworkCard;

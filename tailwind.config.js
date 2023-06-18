@@ -11,9 +11,15 @@ export default {
         "3xl": "1920px",
         "4xl": "2560px",
       },
+      spacing: {
+        '100': '25rem',
+        '104': '26rem',
+      },
       colors: {
         primary: "#1D1933",
         secondary: "#131129",
+        info: "#0e1029",
+        warning:"#10112a",
         body_text: "#C9C9C9",
         heading_text: "#fff",
         header_border: "#322C50",
@@ -23,6 +29,7 @@ export default {
         menu: "#D4CDCD",
         purple: "#E039FD",
         dark_blue: "#6345ED",
+        media_bg:"#28243F",
         dark: {
           100: "#52575b",
           200: "#3c4043",

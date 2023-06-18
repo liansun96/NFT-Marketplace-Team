@@ -6,6 +6,7 @@ import capming from "../icons/camping.svg";
 import crown from "../icons/crown.svg";
 import settings from "../icons/settings.svg";
 import toolMarquee from "../icons/tool-marquee.svg";
+import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
@@ -63,5 +64,4 @@ const Sidebar = () => {
     </div>
   );
 };
-
 export default Sidebar;
