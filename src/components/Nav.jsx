@@ -4,7 +4,7 @@ import { BsThreeDots } from "react-icons/bs";
 import { FiChevronDown } from "react-icons/fi";
 import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
-import { Link , NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import MobileMenu from "./MobileMenu";
 
@@ -61,6 +61,11 @@ const Nav = () => {
                     <span className="group-hover:animate__fadeInUp group-hover:block hidden cursor-pointer w-[260px] py-7 z-10 absolute top-5 -left-4">
                       <div className="bg-primary border border-header_border custom-shoadow-lg px-3 py-4">
                         <ul className="text-heading_text text-sm tracking-wider space-y-[3px]">
+                          <NavLink to={'/marketsingle'}>
+                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                              Market Single
+                            </li>
+                          </NavLink>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Activity
                           </li>
@@ -72,9 +77,6 @@ const Nav = () => {
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Creators
-                          </li>
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            Market Single
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding
@@ -105,7 +107,7 @@ const Nav = () => {
                     <span className="group-hover:block hidden cursor-pointer w-[260px] py-7 z-10 absolute top-5 -left-4">
                       <div className="bg-primary border border-header_border custom-shoadow-lg px-3 py-4">
                         <ul className="text-heading_text text-sm tracking-wider space-y-[3px]">
-                          <Link to={"blog"}>
+                          <Link to={"/blog"}>
                             <li className="hover:text-dark_blue px-2 py-2 duration-300">
                               Our Blog
                             </li>
