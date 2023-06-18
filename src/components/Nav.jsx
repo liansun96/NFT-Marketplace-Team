@@ -4,14 +4,14 @@ import { BsThreeDots } from "react-icons/bs";
 import { FiChevronDown } from "react-icons/fi";
 import { navLinks } from "../constants/index";
 import { Animated } from "react-animated-css";
-import { Link } from "react-router-dom";
+import { Link , NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import MobileMenu from "./MobileMenu";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(true);
   return (
-    <div className="w-[90%] mx-auto border border-slate-800  p-[7px] rounded-xl relative">
+    <div className="w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto border border-slate-800  p-[7px] rounded-xl relative">
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-6">
           <div className="flex items-center gap-6">
@@ -40,14 +40,14 @@ const Nav = () => {
             <div className="flex items-center md:gap-3 gap-8">
               <ul className="flex gap-8">
                 {navLinks?.map((navLink) => (
-                  <Link to={navLink.link}>
+                  <NavLink to={navLink.link}>
                     <li
                       className="mt-[3px] text-heading_text text-sm tracking-wider cursor-pointer duration-300 hover:text-dark_blue"
                       key={navLink.id}
                     >
                       {navLink.title}
                     </li>
-                  </Link>
+                  </NavLink>
                 ))}
                 <li>
                   <div className="group relative inline-flex">

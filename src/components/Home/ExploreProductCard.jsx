@@ -3,7 +3,7 @@ import { IoMdHeart } from "react-icons/io";
 
 const ExploreProductCard = ({explordPd}) => {
   return (
-    <div className="lg:w-[260px] lg:h-[390px] 2xl:w-[290px] 2xl:h-[430px] 3xl:w-[330px] h-[470px] p-5  bg-primary rounded-xl space-y-3">
+    <div className="lg:w-[260px] lg:h-[390px] 2xl:w-[290px] 4xl:w-[310px] 2xl:h-[430px] h-[470px] p-5  bg-primary rounded-xl space-y-3">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img
