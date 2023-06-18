@@ -12,7 +12,7 @@ const TopSellerCard = ({topSeller}) => {
           alt=""
         />
       </div>
-      <div className="w-[60%] space-y-1">
+      <div className="w-[60%] space-y-1 cursor-pointer">
         <h5 className="text-lg font-bold text-heading_text">{topSeller.name}</h5>
         <p className="text-body_text text-sm">
           {topSeller.price} <span className="duration-300 text-purple hover:text-dark_blue">Eth</span>

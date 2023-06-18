@@ -30,9 +30,11 @@
   transition: 150ms;
 }
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer components {
   .hero-bg {

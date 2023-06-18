@@ -6,10 +6,12 @@ import Artworks from "./Artworks";
 import FeatureOfTheWeek from "./FeatureOfTheWeek";
 import Hero from "./Hero";
 import Footer from "./Footer";
+import Rsidebar from "../Blog/Rsidebar";
 
 const Explore = () => {
   return (
     <div className="lg:pl-[110px]">
+      <Rsidebar/>
       <section className="md:h-[470px] h-[250px] explore-bg pt-8">
         <Nav />
         <Hero />

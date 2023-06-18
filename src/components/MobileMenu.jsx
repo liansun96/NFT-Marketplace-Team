@@ -2,11 +2,10 @@ import React from "react";
 import { FaInstagram, FaPinterest, FaTimes, FaTwitter, FaYoutube } from "react-icons/fa";
 import { HiChevronDown } from "react-icons/hi";
 import { FaFacebookF } from "react-icons/fa";
-
-const Menu = () => {
+const MobileMenu = ({isOpen,setIsOpen}) => {
   return (
-    <div className="flex justify-center items-center h-screen w-full">
-      <div className="bg-primary w-[220px]">
+    <div onClick={()=>setIsOpen(!isOpen)} className={`${isOpen ? "translate-x-[500px]" : "translate-x-0"} transform duration-1000 fixed  inset-0 bg-transparent bg-opacity-25  backdrop-blur-[2px] z-10`}>
+      <div onClick={(e) => e.stopPropagation()}className={` bg-primary w-[75%] h-screen ms-auto`}>
         <div className="flex flex-col gap-3 py-5">
           <div className="flex justify-between items-center px-4">
             <div className="">
@@ -16,8 +15,8 @@ const Menu = () => {
                 alt=""
               />
             </div>
-            <div className="">
-              <FaTimes className="text-heading_text" />
+            <div onClick={()=>setIsOpen(!isOpen)} className="cursor-pointer">
+              <FaTimes className={`${isOpen ? "null" : "rotate-[180deg] duration-[1.5s]"} text-heading_text `} />
             </div>
           </div>
           <div className="border border-icon_border" />
@@ -83,5 +82,4 @@ const Menu = () => {
     </div>
   );
 };
-
-export default Menu;
+export default MobileMenu;

@@ -6,7 +6,7 @@ import { RiPinterestFill } from "react-icons/ri";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div className="">
+    <div className="mb-[80px] md:mb-0">
       <div className="bg-primary ">
         <div className="p-5 pt-16 lg:py-20 lg:px-16">
           <div className="flex flex-wrap ms:flex-col lg:flex-row justify-start items-start gap-24 font-Poppins">
