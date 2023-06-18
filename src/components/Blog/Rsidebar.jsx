@@ -17,7 +17,7 @@ const Rsidebar = () => {
     <main>
       <div
         onClick={closeRightSideBar}
-        className="w-full h-screen ml-[110px] absolute right-0 bg-transparent"
+        className="w-full h-screen ml-[110px] fixed top-0 right-0 bg-transparent"
       ></div>
       <div
         className={
