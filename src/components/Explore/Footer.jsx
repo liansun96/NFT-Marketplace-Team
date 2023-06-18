@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="">
       <div className="bg-primary">
         <div className="p-5 pt-16 lg:py-20 lg:px-16  3xl:w-[70%] mx-auto">
-          <div className="flex flex-wrap ms:flex-col lg:flex-row justify-start items-start gap-24 font-Poppins">
+          <div className="flex flex-wrap ms:flex-col lg:flex-row justify-start items-start gap-20 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">
               <div className="">
                 <img
@@ -47,7 +47,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="lg:w-[15%]">
+            <div className="lg:w-[14%]">
               <h1 className="text-2xl text-heading_text font-semibold">
                 Useful Links
               </h1>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-[15%]">
+            <div className="lg:w-[14%]">
               <h1 className="text-2xl text-heading_text font-semibold">
                 Community
               </h1>

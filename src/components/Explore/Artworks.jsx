@@ -7,7 +7,7 @@ import ArtworkCard from "./ArtworkCard";
 const Artworks = ({ isToggle, onToggle }) => {
   return (
     <div className="bg-info">
-      <div className="p-3 md:p-16 lg:p-16  3xl:w-[70%] mx-auto">
+      <div className="p-3 md:p-5 lg:p-16  3xl:w-[70%] mx-auto">
         <div className="flex  gap-2 items-center ">
           <h1 className="text-2xl font-semibold  text-heading_text">
             Artworks

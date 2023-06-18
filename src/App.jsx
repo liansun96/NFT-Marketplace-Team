@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "./components/Sidebar";
 import { Route, Router, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
+import 'animate.css'
 
 import MarketSingle from "./components/MarketSingle";
 import BidHistory from "./components/Nest/BidHistory";
@@ -31,6 +32,8 @@ const App = () => {
         <Route path="/explore" element={<Explore />} />
 
         <Route path="/blog" element={<Blog />} />
+
+        
 
       </Routes>
     </div>
