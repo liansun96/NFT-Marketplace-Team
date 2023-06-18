@@ -8,7 +8,7 @@ const FeatureOfTheWeek = () => {
       <div className="p-3 md:px-5 lg:px-16 3xl:w-[70%] mx-auto">
         <div className="pt-20">
           <div className="flex items-center gap-2">
-            <h1 className="font-semibold text-2xl text-heading_text">
+            <h1 className="font-semibold text-2xl text-heading_text  animate__animated animate__bounce ">
               Features of the week
             </h1>
             <div className="">
