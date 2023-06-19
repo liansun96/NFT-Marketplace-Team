@@ -105,12 +105,17 @@ const Nav = () => {
                     <span className="group-hover:block hidden cursor-pointer w-[260px] py-7 z-10 absolute top-5 -left-4">
                       <div className="bg-primary border border-header_border custom-shoadow-lg px-3 py-4">
                         <ul className="text-heading_text text-sm tracking-wider space-y-[3px]">
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            <Link to={"/blog"}>Our Blog</Link>
-                          </li>
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            <Link to={"/blog"}>Blog Details</Link>
-                          </li>
+                          <Link to={"/blog"}>
+                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                              Our Blog
+                            </li>
+                          </Link>
+                          <Link to={"/blog-detail"}>
+                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                              Blog Details
+                            </li>
+                          </Link>
+
                         </ul>
                       </div>
                     </span>

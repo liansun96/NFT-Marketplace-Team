@@ -4,6 +4,8 @@ import { BiSearch } from "react-icons/bi";
 import supermarket from '../../assets/supermarket.png'
 import user from '../../assets/user.png'
 import calendar from '../../assets/calendar.png'
+import Post from "./Post";
+import DetailForm from "./DetailForm";
 
 const LgCard = () => {
   const cardItems = [
@@ -124,6 +126,8 @@ const LgCard = () => {
             </div>
           );
         })}
+      <Post/>
+      <DetailForm/>
       </div>
       <div className="md:w-[30%]">
         <div className="bg-[#1C1832] w-full rounded-lg p-8">

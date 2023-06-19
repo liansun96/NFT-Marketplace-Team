@@ -10,6 +10,7 @@ import Provenance from "./components/MarketSingle/Nest/Provenance";
 import Explore from "./components/Explore/Explore";
 import Blog from "./components/Blog/Blog";
 import Collection from "./components/Collection/Collection";
+import BlogDetail from "./components/Blog/BlogDetail";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/explore" element={<Explore />} />
 
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog-detail" element={<BlogDetail />} />
 
         <Route path="/collection" element={<Collection />} />
       </Routes>
