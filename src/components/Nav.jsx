@@ -82,7 +82,7 @@ const Nav = () => {
                             <li className="hover:text-dark_blue px-2 py-2 duration-300">
                               Market Single
                             </li>
-                          </NavLink>
+                          </NavLink>~
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding
                           </li>
