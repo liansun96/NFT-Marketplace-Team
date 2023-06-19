@@ -1,12 +1,13 @@
 import React from "react";
-import appsDelete from "../icons/apps-delete.svg";
-import bookAlt from "../icons/book-alt.svg";
-import butterfly from "../icons/butterfly.svg";
-import capming from "../icons/camping.svg";
-import crown from "../icons/crown.svg";
-import settings from "../icons/settings.svg";
-import toolMarquee from "../icons/tool-marquee.svg";
+import appsDelete from "../../icons/apps-delete.svg";
+import bookAlt from "../../icons/book-alt.svg";
+import butterfly from "../../icons/butterfly.svg";
+import capming from "../../icons/camping.svg";
+import crown from "../../icons/crown.svg";
+import settings from "../../icons/settings.svg";
+import toolMarquee from "../../icons/tool-marquee.svg";
 import "./Sidebar.css";
+import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="flex flex-row md:flex-col px-6 py-3 w-screen h-[90px] lg:w-[110px] lg:h-screen bg-primary  fixed -bottom-2 lg:top-0 left-0 custom-shadow z-10 overflow-x-scroll">
@@ -24,8 +25,10 @@ const Sidebar = () => {
           />
         </li>
         <li>
-          <div className="w-[50px] md:w-[55px] rounded-[9px] border border-icon_border p-3 transition ease-out hover:icon-bg bg-secondary">
-            <img className="w-6 md:w-8 " src={appsDelete} alt="" />
+          <div className="sidebar-link w-[50px] md:w-[55px] rounded-[9px] border border-icon_border p-3 transition ease-out hover:icon-bg bg-secondary">
+            <NavLink to={"/"}>
+              <img className="w-6 md:w-8 " src={appsDelete} alt="" />
+            </NavLink>
           </div>
         </li>
         <li>

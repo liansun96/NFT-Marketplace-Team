@@ -121,7 +121,7 @@ const Footer = () => {
                 <div className="">
                   <input
                     type="text"
-                    className="px-5 bg-transparent outline-none text-heading_text"
+                    className="px-5 w-[250px] bg-transparent outline-none text-heading_text"
                     placeholder="info@youmail.com"
                   />
                 </div>

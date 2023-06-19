@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Rsidebar from "./Blog/Rsidebar";
 import ScrollBtn from "./ScrollBtn";
 import { Bars } from "react-loader-spinner";
-import Sidebar from "./Sidebar";
+import Sidebar from "./Sidebar/Sidebar";
 
 const Layout = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 1500);
   }, []);
 
   if (isLoading) {
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 
   return (
     <div>
-      <Sidebar/>
+      <Sidebar />
       <Rsidebar />
       <ScrollBtn />
       {children}
