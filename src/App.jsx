@@ -12,6 +12,7 @@ import Provenance from "./components/Nest/Provenance";
 import Explore from "./components/Explore/Explore";
 
 import Blog from './components/Blog/Blog'
+import Collection from "./components/Collection/Collection";
 
 const App = () => {
 
@@ -31,6 +32,8 @@ const App = () => {
         <Route path="/explore" element={<Explore />} />
 
         <Route path="/blog" element={<Blog />} />
+
+        <Route path="/collection" element={<Collection/>} />
 
         
 
