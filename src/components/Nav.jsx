@@ -76,9 +76,11 @@ const Nav = () => {
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Creators
                           </li>
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            Market Single
-                          </li>
+                          <NavLink to={"/marketsingle"}>
+                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                              Market Single
+                            </li>
+                          </NavLink>~
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding
                           </li>
@@ -120,7 +122,7 @@ const Nav = () => {
                   </div>
                 </li>
               </ul>
-              <div className="transform duration-1000 transition hover:bg-gradient-to-l from-[#CC42E4] to-[#6345ED] bg-gradient-to-r from-[#BC3CD3] to-[#6345ED] p-1 rounded-full">
+              <div className="transform duration-1000 transition hover:bg-gradient-to-l from-[#CC42E4] to-[#6345ED] bg-gradient-to-r p-1 rounded-full">
                 <div className="border border-[#fff] border-dashed bg-transparent rounded-3xl">
                   <button className="px-5 py-3 text-sm font-bold text-heading_text">
                     WALLET CONNECT

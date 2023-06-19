@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import Nav from "../Nav";
 import Layout from "../Layout";
 
+
 const MarketSingle = () => {
   return (
     <Layout>
@@ -19,7 +20,7 @@ const MarketSingle = () => {
             <Nav />
           </div>
 
-          <div className="my-6 mx-3 sm:mx-0 flex justify-between sm:px-4">
+          <div className="my-6 mx-3 sm:mx-0 lg:mx-14 flex justify-between lg:px-3 sm:px-4">
             <div className="">
               <h1 className="sm:p-4 p-2 text-gray-300 px-4 sm:px-6 text-xs sm:text-sm rounded-full  hover:bg-[#E039FD] duration-200 bg-[#241F3D] font-semibold">
                 GO BACK TO HOME
@@ -40,7 +41,7 @@ const MarketSingle = () => {
         </div>
 
         {/* container  */}
-        <div className=" col-span-8 grid gap-2 mx-auto grid-cols-8">
+        <div className=" col-span-8 lg:mx-14 grid gap-2 mx-auto grid-cols-8">
           {/* img */}
           <div className=" p-3 sm:max-md:col-span-8 col-span-8 lg:col-span-4">
             <motion.img
@@ -107,16 +108,16 @@ const MarketSingle = () => {
               </div>
             </div>
             {/* text  */}
-            <p className="text-[17px] text-gray-300 mt-5">
+            <p className="text-[17px] my-6 text-gray-300 mt-6">
               What even is an NFT? NFT stands for non-fungible token, which
               basically means that it's one-of-kind digital asset that belongs
               to you and you only. The most popular NFTs right now include
               artwork and music also include videos.
             </p>
             {/* block */}
-            <div className="grid bg-[#241F3D] p-5  pb-6 rounded-lg mt-5 grid-cols-2 gap-2">
+            <div className="grid bg-[#241F3D] p-5  pb-6 rounded-lg mt-5 grid-cols-2 gap-1">
               <div className="md:max-lg:col-span-2 col-span-2 xl:col-span-1">
-                <p className="text-xl font-semibold text-white">Highest bid</p>
+                <p className=" font-semibold text-white">Highest bid</p>
                 <div className="flex mt-5">
                   <img
                     className="rounded-full h-[50px]"
@@ -124,7 +125,7 @@ const MarketSingle = () => {
                     alt="girl"
                   />
                   <div className="ms-5">
-                    <h1 className="font-semibold duration-200 text-lg hover:text-[#E039FD] text-white">
+                    <h1 className="font-semibold duration-200 hover:text-[#E039FD] text-white">
                       Tomas lindahl
                     </h1>
                     <p className="text-gray-300 text-sm ">3.005wETH</p>
@@ -132,26 +133,24 @@ const MarketSingle = () => {
                 </div>
               </div>
               <div className="md:max-lg:col-span-2 col-span-2 xl:col-span-1 md:max-lg:mt-3">
-                <p className="text-xl font-semibold text-white">
-                  Auction has ended
-                </p>
+                <p className=" font-semibold text-white">Auction has ended</p>
                 <div className="mt-4  rounded-md p-1 bg-gradient-to-r from-[#5338B5] to-[#DF39FD] gap-2">
                   <div className="grid p-2 pe-3 rounded-sm bg-[#241F3D] grid-cols-4">
                     <div className="text-white text-center">
-                      <p className=" font-bold">0 0</p>
-                      <p className="text-sm">DAY</p>
+                      <p className="font-semibold">0 0</p>
+                      <p className="text-xs font-light">DAY</p>
                     </div>
                     <div className="text-white text-center">
-                      <p className=" font-bold">0 0</p>
-                      <p className="text-sm">HOURS</p>
+                      <p className="font-semibold">0 0</p>
+                      <p className="text-xs font-light">HOURS</p>
                     </div>
                     <div className="text-white text-center">
-                      <p className=" font-bold">0 0</p>
-                      <p className="text-sm">MINUT</p>
+                      <p className="font-semibold">0 0</p>
+                      <p className="text-xs font-light">MINUT</p>
                     </div>
                     <div className="text-center text-white">
-                      <p className=" font-bold">0 0</p>
-                      <p className="text-sm">SECOND</p>
+                      <p className=" font-semibold">0 0</p>
+                      <p className="text-xs font-light ">SECOND</p>
                     </div>
                   </div>
                 </div>
@@ -159,14 +158,14 @@ const MarketSingle = () => {
             </div>
             {/* bit */}
             <div className="mt-5 border-[3px] border-white duration-200 group hover:border-[#E039FD] p-3 rounded-full justify-center flex">
-              <p className="text-lg font-bold  duration-200 group-hover:text-[#E039FD] text-white">
+              <p className="text-lg font-semibold  duration-200 group-hover:text-[#E039FD] text-white">
                 PLACE A BID
               </p>
             </div>
           </div>
         </div>
         {/* second container  */}
-        <div className=" col-span-8 my-8  grid gap-2 mx-auto grid-cols-8">
+        <div className=" lg:mx-14 col-span-8 my-8  grid gap-2 mx-auto grid-cols-8">
           {/* scroll */}
           <div className="md:px-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto">
             {/* <div className="md:px-3 px-6 col-span-8 md:max-lg:mx-auto  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto"> */}
@@ -307,7 +306,7 @@ const MarketSingle = () => {
           </div>
         </div>
         {/* third screen cards */}
-        <div className=" w-full grid grid-cols-8 relative overflow-x-auto  mt-3">
+        <div className=" lg:mx-14 grid grid-cols-8 relative overflow-x-auto  mt-3">
           {/* <div className="col-span-1 bg-slate-700"></div> */}
           {/* container  */}
           <div className=" col-span-8 ">

@@ -84,7 +84,7 @@ const LgCard = () => {
     },
   ];
   return (
-    <div className="flex justify-evenly flex-col md:flex-row px-3 md:px-0">
+    <div className="flex justify-evenly flex-col md:flex-row px-3 md:px-5">
       <div className="md:w-[60%]">
         {cardItems.map((item) => {
           return (
