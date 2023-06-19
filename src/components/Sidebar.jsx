@@ -55,7 +55,7 @@ const Sidebar = () => {
             <img className="w-6 md:w-8 " src={settings} alt="" />
           </div>
         </li>
-        <li className="me-5 md:me-0 md:!mt-[60px]">
+        <li className="me-5 md:me-0 md:!mt-[40px]">
           <div className="w-[50px] md:w-[55px] rounded-[9px] border border-icon_border p-3 transition ease-out hover:icon-bg bg-secondary">
             <img className="w-6 md:w-8 " src={toolMarquee} alt="" />
           </div>
