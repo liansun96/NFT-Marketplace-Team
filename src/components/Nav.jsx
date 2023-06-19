@@ -40,14 +40,12 @@ const Nav = () => {
             <div className="flex items-center md:gap-3 gap-8">
               <ul className="flex gap-8">
                 {navLinks?.map((navLink) => (
-                  <NavLink to={navLink.link}>
-                    <li
-                      className="mt-[3px] text-heading_text text-sm tracking-wider cursor-pointer duration-300 hover:text-dark_blue"
-                      key={navLink.id}
-                    >
-                      {navLink.title}
-                    </li>
-                  </NavLink>
+                  <li
+                    className="mt-[3px] text-heading_text text-sm tracking-wider cursor-pointer duration-300 hover:text-dark_blue"
+                    key={navLink.id}
+                  >
+                    <NavLink to={navLink.link}>{navLink.title}</NavLink>
+                  </li>
                 ))}
                 <li>
                   <div className="group relative inline-flex">
@@ -61,11 +59,11 @@ const Nav = () => {
                     <span className="group-hover:animate__fadeInUp group-hover:block hidden cursor-pointer w-[260px] py-7 z-10 absolute top-5 -left-4">
                       <div className="bg-primary border border-header_border custom-shoadow-lg px-3 py-4">
                         <ul className="text-heading_text text-sm tracking-wider space-y-[3px]">
-                          <NavLink to={"/marketsingle"}>
-                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                            <NavLink to={"/marketsingle"}>
                               Market Single
-                            </li>
-                          </NavLink>
+                            </NavLink>
+                          </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Activity
                           </li>
@@ -77,12 +75,7 @@ const Nav = () => {
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Creators
-                          </li>
-                          <NavLink to={"/marketsingle"}>
-                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                              Market Single
-                            </li>
-                          </NavLink>~
+                          </li>                          
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding
                           </li>
@@ -122,6 +115,7 @@ const Nav = () => {
                               Blog Details
                             </li>
                           </Link>
+
                         </ul>
                       </div>
                     </span>

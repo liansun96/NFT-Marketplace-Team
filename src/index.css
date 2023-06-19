@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -58,14 +56,11 @@
   }
 }
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-
   .drop {
     @apply bg-primary  origin-top;
   }
@@ -91,11 +86,16 @@
     @apply bg-gradient-to-r from-[#2a2846] to-[#23203d];
   }
 
+  .sidebar-link .active {
+    @apply bg-icon;
+  }
+
   .button-grd {
     @apply bg-gradient-to-r from-[#e039fd] to-[#6345ed];
   }
 
-  .bg-thumb-shadow{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  .bg-thumb-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
 }

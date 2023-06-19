@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { HiChevronDown } from "react-icons/hi";
 import { FaFacebookF } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const MobileMenu = ({ isOpen, setIsOpen }) => {
   const [show, setShow] = useState(false);
@@ -20,11 +20,11 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
       onClick={() => setIsOpen(!isOpen)}
       className={`${
         isOpen ? "translate-x-[500px]" : "translate-x-0"
-      } transform duration-1000 fixed  inset-0 bg-transparent bg-opacity-25  backdrop-blur-[2px] z-10`}
+      } transform duration-1000 fixed  inset-0 bg-transparent bg-opacity-25  backdrop-blur-[2px] z-50 overflow-scroll`}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={` bg-primary w-[75%] h-screen ms-auto`}
+        className={` bg-primary w-[75%] min-h-screen ms-auto`}
       >
         <div className="flex flex-col gap-2 py-5">
           <div className="flex justify-between items-center px-6">
@@ -86,9 +86,18 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             </div>
           </div>
           <div
-            className={show ? "drop h-[355px] scale-y-1 opacity-100 duration-700" : "h-0 drop scale-y-0 opacity-0 duration-700"}
+            className={
+              show
+                ? "drop h-[355px] scale-y-1 opacity-100 duration-700"
+                : "h-0 drop scale-y-0 opacity-0 duration-700"
+            }
           >
             <ul className="text-heading_text text-sm tracking-wider space-y-[3px] ms-8">
+              <NavLink to={"/marketsingle"}>
+                <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                  Market Single
+                </li>
+              </NavLink>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
                 Activity
               </li>
@@ -100,9 +109,6 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
                 Creators
-              </li>
-              <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Market Single
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
                 Live Bidding
@@ -137,10 +143,14 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             </div>
           </div>
           <div
-            className={show1 ? "drop h-[80px] scale-y-1 duration-500" : "h-0 drop scale-y-0 duration-500"}
+            className={
+              show1
+                ? "drop h-[80px] scale-y-1 duration-500"
+                : "h-0 drop scale-y-0 duration-500"
+            }
           >
             <ul className="text-heading_text text-sm tracking-wider space-y-[3px] ms-8">
-              <Link to={"blog"}>
+              <Link to={"/blog"}>
                 <li className="hover:text-dark_blue px-2 py-2 duration-300">
                   Our Blog
                 </li>

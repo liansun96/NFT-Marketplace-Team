@@ -4,7 +4,7 @@ const FeaturesCard = ({ feature }) => {
   return (
     <div className=" bg-primary rounded-xl shadow-lg p-5">
       <div className="flex justify-between items-center gap-4">
-        <div className="flex items-center gap-5">
+        <div className="flex flex-col md:flex-row items-start gap-1 md:items-center md:gap-5">
           <div className="cursor-pointer">
             <img src={feature?.profile} alt="" />
           </div>
@@ -12,7 +12,7 @@ const FeaturesCard = ({ feature }) => {
             <h1 className="font-semibold text-heading_text text-lg hover:text-purple cursor-pointer">
               {feature?.title}
             </h1>
-            <p className="text-sm text-body_text">
+            <p className="text-xs text-body_text">
               Created by{" "}
               <span className="font-semibold text-heading_text hover:text-purple cursor-pointer">
                 {feature?.name}
