@@ -1,5 +1,4 @@
 import React from "react";
-import background from "../../assets/breadcrumb_bg.png";
 import MidBar from "./MidBar";
 import LgCard from "./LgCard";
 import Footer from "./Footer";
@@ -20,7 +19,7 @@ const Blog = () => {
             Latest News
           </h2>
         </div>
-        <div className=" mt-0">
+        <div className="-mt-20 md:mt-0">
           <MidBar />
         </div>
         <div className="mt-10 md:mt-16">
