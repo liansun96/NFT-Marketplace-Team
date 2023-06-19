@@ -9,7 +9,7 @@ import {
 
 const Info = () => {
   return (
-    <div className="py-20 px-10 md:h-96 bg-[#11122B] flex flex-col md:flex-row justify-evenly">
+    <div className="py-20 px-10 md:h-96 bg-[#11122B] flex flex-col md:flex-row justify-between">
       <div className="md:w-[20%]">
         <img
           className="w-8"
@@ -79,7 +79,7 @@ const Info = () => {
       <h2 className="font-semibold text-xl pb-3">Subscribe Us</h2>
       <div className="flex items-center h-14 w-full relative  rounded-lg">
             <input
-              className="bg-[#1D1933] p-3 h-full text-sm text-[#E6E6D4] rounded-lg focus-visible:outline-0"
+              className="bg-[#1D1933] w-full p-3 h-full text-sm text-[#E6E6D4] rounded-lg focus-visible:outline-0"
               type="text"
               name=""
               id=""

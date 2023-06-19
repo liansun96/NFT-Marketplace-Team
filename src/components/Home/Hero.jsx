@@ -6,11 +6,11 @@ import { topSellers } from "../../constants/index";
 
 const Hero = () => {
   return (
-    <div className="hero-bg ms-auto h-[155vh] md:h-[135vh] pt-8">
+    <div className="hero-bg ms-auto h-[155vh] md:h-[135vh] 3xl:h-[101vh] pt-4 xl:pt-8">
       <Nav />
-      <div className="h-[60vh] md:h-[85vh] flex">
-        <div className="w-[90%] md:w-[80%] mx-auto self-center space-y-6">
-          <h1 className="text-5xl md:text-7xl text-heading_text font-bold md:tracking-wide leading-[60px] md:leading-[90px]">
+      <div className="w-[95%] 3xl:w-[70%] 4xl:w-[60%] mx-auto h-[55vh] md:h-[85vh] 3xl:h-[65vh] flex">
+        <div className="w-[95%] md:w-[80%] mx-auto self-center space-y-6">
+          <h1 className="text-[40px] md:text-7xl text-heading_text font-bold md:tracking-wide leading-[50px] md:leading-[90px]">
             Buy and sell <br />
             digital art <br className="hidden md:block" />
             <span className="text-purple">NFT </span>collection
@@ -27,7 +27,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-[90%] mx-auto">
+      <div className="w-[90%]  3xl:w-[70%] 4xl:w-[55%] mx-auto">
         <div className="flex items-center gap-2 mb-10">
           <h4 className="text-heading_text text-2xl font-semibold">
             Top Seller

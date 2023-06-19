@@ -15,8 +15,7 @@ import Blog from './components/Blog/Blog'
 
 const App = () => {
 
-  const [isToggled,setIsToggled] = useState(false)
-
+ 
   return (
     <div className="font-Poppins">
       <Sidebar />

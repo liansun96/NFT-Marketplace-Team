@@ -12,12 +12,13 @@ import Nav from "./Nav";
 const MarketSingle = () => {
   return (
     // <div className="ms-[98px] p-4 w-full bg-[#070B24]">
-    <div className="sm:ms-[98px] p-4  bg-[#070B24]">
-      <div className="mb-6 my-5">
+    <div className="sm:ms-[98px] sm:p-4 p-1  bg-[#070B24]">
+      <div className="">
+          <div className="mb-6 my-5">
         <Nav />
       </div>
 
-      <div className="my-6 flex justify-between sm:px-4">
+      <div className="my-6 mx-3 sm:mx-0 flex justify-between sm:px-4">
         <div className="">
           <h1 className="sm:p-4 p-2 text-gray-300 px-4 sm:px-6 text-xs sm:text-sm rounded-full  hover:bg-[#E039FD] duration-200 bg-[#241F3D] font-semibold">
             GO BACK TO HOME
@@ -35,6 +36,9 @@ const MarketSingle = () => {
           </h1>
         </div>
       </div>
+      </div>
+
+    
       {/* container  */}
       <div className=" col-span-8 grid gap-2 mx-auto grid-cols-8">
         {/* img */}
@@ -58,7 +62,7 @@ const MarketSingle = () => {
               <div className="w-[45px] duration-[0.3s] bg-[#241F3D] hover:bg-[#E039FD] text-white flex justify-center items-center h-[45px]  rounded-full">
                 <HiShare />
               </div>
-              <div className="ms-4 duration-[0.3s] bg-[#241F3D] hover:bg-[#E039FD] text-white text-lg w-[45px] h-[45px] flex justify-center items-center rounded-full">
+              <div className="sm:ms-4 ms-2 duration-[0.3s] bg-[#241F3D] hover:bg-[#E039FD] text-white text-lg w-[45px] h-[45px] flex justify-center items-center rounded-full">
                 <BsThreeDots />
               </div>
             </div>
@@ -73,7 +77,7 @@ const MarketSingle = () => {
             </p>
           </div>
           {/* card */}
-          <div className="columns-2 mt-6 gap-7 ">
+          <div className="columns-2 mt-6 gap-3 sm:gap-7 ">
             <div className="bg-[#241F3D] shadow-xl md:max-lg:flex-col flex-none  xl:flex rounded-md p-4">
               <img
                 className="rounded-full md:max-lg:mx-auto md:max-lg:mb-2 mx-auto xl:mx-0 md:max-lg:w-[50px] h-[50px]"
@@ -81,7 +85,7 @@ const MarketSingle = () => {
                 alt="girl"
               />
               <div className="md:max-lg:text-center text-center xl:ms-5">
-                <h1 className="font-bold text-lg hover:text-[#E039FD] duration-200 text-white">
+                <h1 className="font-semibold sm:font-bold mt-2 sm:mt-0 text-lg hover:text-[#E039FD] duration-200 text-white">
                   David Michels
                 </h1>
                 <p className="text-gray-300 xl:text-start">Creators by</p>
@@ -95,7 +99,7 @@ const MarketSingle = () => {
                 alt="girl"
               />
               <div className="md:max-lg:text-center text-center xl:ms-5">
-                <h1 className="font-bold duration-200 text-lg hover:text-[#E039FD] text-white">
+                <h1 className="font-semibold sm:font-bold mt-2 sm:mt-0 duration-200 text-lg hover:text-[#E039FD] text-white">
                   MR. Tartos
                 </h1>
                 <p className="text-gray-300 xl:text-start">Creators by</p>
@@ -164,7 +168,7 @@ const MarketSingle = () => {
       {/* second container  */}
       <div className=" col-span-8 my-8  grid gap-2 mx-auto grid-cols-8">
         {/* scroll */}
-        <div className="md:px-3 px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto">
+        <div className="md:px-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto">
           {/* <div className="md:px-3 px-6 col-span-8 md:max-lg:mx-auto  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto"> */}
           <div className="relative overflow-x-auto sm:rounded-lg">
             <div className="w-[600px] h-[445px]">
@@ -256,7 +260,7 @@ const MarketSingle = () => {
           </div>
         </div>
         {/* right scroll   */}
-        <div className=" text-white p-3 xl:px-3 px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto sm:max-md:px-11">
+        <div className=" text-white p-3 xl:px-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto sm:max-md:px-11">
           <div className="felx">
             <div className="grid grid-cols-8 border-b-2 mb-3 border-gray-800 py-2 pb-4">
               <div className="col-span-3 xl:col-span-2 md:max-lg:col-span-3">
@@ -319,7 +323,7 @@ const MarketSingle = () => {
               />
             </div>
             {/* cards  */}
-            <div className="grid grid-cols-4 px-12  sm:max-md:px-8  mb-8 xl:px-4 md:max-lg:gap-10 md:max-lg:px-10 gap-10 md:gap-5">
+            <div className="grid grid-cols-4 px-4  sm:max-md:px-8  mb-8 xl:px-4 md:max-lg:gap-10 md:max-lg:px-10 gap-10 md:gap-5">
               <div className="rounded-xl col-span-4 md:max-lg:col-span-2 sm:max-md:col-span-2 p-5 pt-2 bg-[#1D1933] lg:col-span-1">
                 <div className="flex justify-between">
                   <div className="flex items-center">
@@ -507,8 +511,8 @@ const MarketSingle = () => {
           </div>
           <div className="h-[50px]"></div>
           {/* footer  */}
-          <div className="bg-[#11122B] px-5 ms-3 sm:p-20 pb-10 xl:py-16 xl:pb-16 pt-12 grid grid-cols-6 xl:h-[340px]  xl:px-4">
-            <div className="md:col-span-2 col-span-4 md:ps-4">
+          <div className="bg-[#11122B] px-6 sm:ms-3 sm:p-20 pb-10 xl:py-16 xl:pb-16 pt-12 grid grid-cols-6 xl:h-[340px]  xl:px-4">
+            <div className="md:col-span-2 sm:col-span-4  col-span-6 md:ps-4">
               <img
                 className="mb-3 h-[50px]"
                 src="https://themebeyond.com/html/nftmak/assets/img/logo/logo.png"
@@ -534,7 +538,7 @@ const MarketSingle = () => {
                 </div>
               </div>
             </div>
-            <div className="md:col-span-1 col-span-2 pt-3">
+            <div className="md:col-span-1 sm:col-span-2 mt-8 sm:mt-0 col-span-6  pt-3">
               <p className="text-md font-bold text-gray-200 font-[poppins] mb-5">
                 Useful Links
               </p>
@@ -554,7 +558,7 @@ const MarketSingle = () => {
                 Privacy & Terms
               </p>
             </div>
-            <div className="md:col-span-1 mt-7 md:mt-0 col-span-2 pt-3 md:ps-8">
+            <div className="md:col-span-1 mt-7 md:mt-0 sm:col-span-2  col-span-6  pt-3 md:ps-8">
               <p className="text-md font-bold text-gray-200 font-[poppins] mb-5">
                 Community
               </p>
@@ -574,13 +578,13 @@ const MarketSingle = () => {
                 Newsletter
               </p>
             </div>
-            <div className="md:col-span-2 mt-7 md:mt-0 col-span-4 md:ms-12 pt-3 md:pe-9 ">
-              <p className="text-md text-end xl:text-start font-bold text-gray-200 font-[poppins] mb-5">
+            <div className="md:col-span-2 mt-7 md:mt-0 sm:col-span-4   col-span-6  md:ms-12 pt-3 md:pe-9 ">
+              <p className="text-md sm:text-end xl:text-start font-bold text-gray-200 font-[poppins] mb-5">
                 Subscribe Us
               </p>
               <form>
                 <div className="flex ">
-                  <div className="relative w-[230px] ms-auto xl:w-full">
+                  <div className="relative sm:w-[230px] w-full sm:ms-auto xl:w-full">
                     <input
                       type="search"
                       className="block rounded-s-md placeholder:font-[poppins]  placeholder-gray-500 placeholder- h-[50px] p-2.5 w-full z-20 text-sm text-gray-900 bg-[#1D1933]"

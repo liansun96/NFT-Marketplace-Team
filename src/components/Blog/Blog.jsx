@@ -10,14 +10,14 @@ import Rsidebar from "./Rsidebar";
 
 const Blog = () => {
   return (
-    <main className=" bg-[#070B24]  md:pl-[110px]">
+    <main className=" bg-[#070B24] lg:pl-[110px]">
       <Rsidebar />
-      {/* <Nav/> */}
       <div
-        className=" w-[100%] h-96 md:h-screen  bg-no-repeat flex justify-center items-center "
+        className=" w-full h-96 md:h-screen pt-8 bg-no-repeat object-cover "
         style={{ backgroundImage: `url(${background})` }}
-      >
-        <h2 className="text-4xl text-white font-semibold mt-20 md:mt-0">
+        >
+        <Nav/>
+        <h2 className="text-4xl text-white text-center font-semibold mt-20 md:mt-40">
           Latest News
         </h2>
       </div>

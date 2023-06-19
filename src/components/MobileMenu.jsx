@@ -86,7 +86,7 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             </div>
           </div>
           <div
-            className={show ? "drop h-[355px] scale-y-1" : "h-0 drop scale-y-0"}
+            className={show ? "drop h-[355px] scale-y-1 opacity-100 duration-700" : "h-0 drop scale-y-0 opacity-0 duration-700"}
           >
             <ul className="text-heading_text text-sm tracking-wider space-y-[3px] ms-8">
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
@@ -137,7 +137,7 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             </div>
           </div>
           <div
-            className={show1 ? "drop h-[80px] scale-y-1" : "h-0 drop scale-y-0"}
+            className={show1 ? "drop h-[80px] scale-y-1 duration-500" : "h-0 drop scale-y-0 duration-500"}
           >
             <ul className="text-heading_text text-sm tracking-wider space-y-[3px] ms-8">
               <Link to={"blog"}>

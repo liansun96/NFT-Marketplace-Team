@@ -9,7 +9,7 @@ import toolMarquee from "../icons/tool-marquee.svg";
 import "./Sidebar.css";
 const Sidebar = () => {
   return (
-    <div className="flex flex-row md:flex-col px-6 py-3 w-screen h-[90px] md:w-[110px] md:h-screen bg-primary  fixed -bottom-2 md:top-0 left-0 custom-shadow z-10 overflow-x-scroll">
+    <div className="flex flex-row md:flex-col px-6 py-3 w-screen h-[90px] lg:w-[110px] lg:h-screen bg-primary  fixed -bottom-2 lg:top-0 left-0 custom-shadow z-10 overflow-x-scroll">
       <ul className="flex flex-row gap-4 md:justify-center items-center md:flex-col md:gap-6 md:mt-6">
         <img
           className="block md:hidden h-10 md:w-7 md:mt-4"
@@ -55,7 +55,7 @@ const Sidebar = () => {
             <img className="w-6 md:w-8 " src={settings} alt="" />
           </div>
         </li>
-        <li className="me-5 md:me-0 md:!mt-[60px]">
+        <li className="me-5 md:me-0 md:!mt-[40px]">
           <div className="w-[50px] md:w-[55px] rounded-[9px] border border-icon_border p-3 transition ease-out hover:icon-bg bg-secondary">
             <img className="w-6 md:w-8 " src={toolMarquee} alt="" />
           </div>

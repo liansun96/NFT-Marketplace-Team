@@ -4,7 +4,7 @@ import {RiShareFill} from "react-icons/ri"
 
 const TopSellerCard = ({topSeller}) => {
   return (
-    <div className="flex justify-center items-center lg:w-[260px] 2xl:w-[300px] 3xl:w-[370px] h-[120px] bg-primary border-[3px] duration-300 border-dark_blue hover:border-purple rounded-xl">
+    <div className="flex justify-center items-center lg:w-[260px] 2xl:w-[300px] 4xl:w-[310px] h-[120px] bg-primary border-[3px] duration-300 border-dark_blue hover:border-purple rounded-xl">
       <div className="w-[40%]">
         <img
           className="w-16 h-16 mx-auto rounded-full"

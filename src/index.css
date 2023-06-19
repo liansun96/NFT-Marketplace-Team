@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -39,7 +41,7 @@
 @layer components {
 
   .drop {
-    @apply bg-primary duration-300 origin-top;
+    @apply bg-primary  origin-top;
   }
 
   .hero-bg {
@@ -49,7 +51,7 @@
   }
 
   .active {
-    @apply bg-gradient-to-r from-[#2a2846] to-[#23203d];
+    @apply text-purple;
   }
 
   .icon-bg {

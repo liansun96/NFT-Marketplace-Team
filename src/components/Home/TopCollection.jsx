@@ -10,8 +10,8 @@ import "swiper/css/navigation";
 
 const TopCollection = () => {
   return (
-    <div className="bg-[#070b24] h-[90vh] flex items-center">
-      <div className="w-[90%] mx-auto ">
+    <div className="bg-[#070b24] flex items-center">
+      <div className="w-[90%]  3xl:w-[70%] 4xl:w-[55%] mx-auto ">
         <div className="flex items-center gap-2 mb-10 translate-y-[100px]">
           <h4 className="text-heading_text text-2xl font-semibold ">
             Top Collection
