@@ -9,7 +9,7 @@ import {
 
 const Info = () => {
   return (
-    <div className="py-20 px-16 md:h-96 bg-[#11122B] flex flex-col md:flex-row justify-between">
+    <div className="py-20 px-10 md:px-16 md:h-96 bg-[#11122B] flex flex-col md:flex-row justify-between">
       <div className="md:w-[20%]">
         <img
           className="w-8"
