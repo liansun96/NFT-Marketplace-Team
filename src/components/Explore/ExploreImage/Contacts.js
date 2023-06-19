@@ -121,18 +121,4 @@ export const features = [
   },
 ];
 
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection01.jpg
 
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection05.jpg
-
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection06.jpg
-
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection07.jpg
-
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection08.jpg
-
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection09.jpg
-
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection10.jpg
-
-// https://themebeyond.com/html/nftmak/assets/img/others/top_collection11.jpg
