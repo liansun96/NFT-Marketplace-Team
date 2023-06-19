@@ -7,9 +7,11 @@ import Info from "./Info";
 
 import Nav from "../Nav";
 import Rsidebar from "./Rsidebar";
+import Layout from "../Layout";
 
 const Blog = () => {
   return (
+
     <main className=" bg-[#070B24] lg:pl-[110px]">
       <Rsidebar />
       <div className=" w-full h-112 pt-8 blog-bg ">
@@ -31,6 +33,7 @@ const Blog = () => {
         <Footer />
       </div>
     </main>
+
   );
 };
 
