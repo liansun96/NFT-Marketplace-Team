@@ -117,7 +117,7 @@ const Nav = () => {
                               Our Blog
                             </li>
                           </Link>
-                          <Link to={"/blog"}>
+                          <Link to={"/blog-detail"}>
                             <li className="hover:text-dark_blue px-2 py-2 duration-300">
                               Blog Details
                             </li>
