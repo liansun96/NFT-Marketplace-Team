@@ -1,16 +1,14 @@
 import React from "react";
-import Nav from "../Nav";
-import "./Explore.css";
-import Category from "./Category";
-import Artworks from "./Artworks";
-import FeatureOfTheWeek from "./FeatureOfTheWeek";
-import Hero from "./Hero";
-import Footer from "./Footer";
 import Rsidebar from "../Blog/Rsidebar";
+import Nav from "../Nav";
 import ScrollBtn from "../ScrollBtn";
+import BrowserByCategory from "./BrowserByCategory";
+import Category from "./Category";
+import Footer from "./Footer";
+import Hero from "./Hero";
 import Layout from "../Layout";
 
-const Explore = () => {
+const Collection = () => {
   return (
     <Layout>
       <div className="lg:pl-[110px] relative">
@@ -26,19 +24,15 @@ const Explore = () => {
         </section>
 
         <section>
-          <Artworks />
+          <BrowserByCategory />
         </section>
 
         <section>
-          <FeatureOfTheWeek />
-        </section>
-
-        <footer>
           <Footer />
-        </footer>
+        </section>
       </div>
     </Layout>
   );
 };
 
-export default Explore;
+export default Collection;

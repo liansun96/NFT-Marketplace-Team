@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className="flex justify-center items-center mt-8 md:mt-36">
-        <h1 className='font-Poppins font-semibold text-3xl md:text-4xl  text-white'>NFT Marketplace</h1>
+        <h1 className='font-Poppins font-semibold text-3xl md:text-4xl  text-white'>Top Collections</h1>
     </div>
   )
 }
