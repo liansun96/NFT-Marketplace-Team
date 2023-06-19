@@ -75,7 +75,7 @@ const Nav = () => {
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Creators
-                          </li>                          
+                          </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding
                           </li>
@@ -85,9 +85,11 @@ const Nav = () => {
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Author Profile
                           </li>
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            Login & Register
-                          </li>
+                          <NavLink to={'/loginandregister'}>
+                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                              Login & Register
+                            </li>
+                          </NavLink>
                         </ul>
                       </div>
                     </span>

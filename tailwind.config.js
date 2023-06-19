@@ -25,6 +25,7 @@ export default {
         info: "#0e1029",
         warning:"#10112a",
         body_text: "#C9C9C9",
+        text_secondary :"#AAA9A9",  
         heading_text: "#fff",
         header_border: "#322C50",
         border: "#2c1933",
@@ -34,11 +35,7 @@ export default {
         purple: "#E039FD",
         dark_blue: "#6345ED",
         media_bg:"#28243F",
-        dark: {
-          100: "#52575b",
-          200: "#3c4043",
-          300: "#43474a",
-        },
+        dark: "#070B24",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],

@@ -10,6 +10,7 @@ import Provenance from "./components/MarketSingle/Nest/Provenance";
 import Explore from "./components/Explore/Explore";
 import Blog from "./components/Blog/Blog";
 import Collection from "./components/Collection/Collection";
+import LoginAndRegister from "./components/LoginAndRegister/LoginAndRegister";
 
 const App = () => {
   return (
@@ -21,12 +22,10 @@ const App = () => {
           <Route path="info" element={<Info />} />
           <Route path="pro" element={<Provenance />} />
         </Route>
-
         <Route path="/explore" element={<Explore />} />
-
         <Route path="/blog" element={<Blog />} />
-
         <Route path="/collection" element={<Collection />} />
+        <Route path="/loginandregister" element={<LoginAndRegister />} />
       </Routes>
     </div>
   );
