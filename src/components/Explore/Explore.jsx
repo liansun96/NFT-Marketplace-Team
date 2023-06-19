@@ -7,12 +7,14 @@ import FeatureOfTheWeek from "./FeatureOfTheWeek";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Rsidebar from "../Blog/Rsidebar";
+import ScrollBtn from "../ScrollBtn";
 
 const Explore = () => {
   return (
-    <div className="lg:pl-[110px]">
+    <div className="lg:pl-[110px] relative">
       <Rsidebar/>
-      <section className="md:h-[470px] h-[250px] explore-bg pt-4 xl:pt-8 bg-[#070B24]">
+      <ScrollBtn/>
+      <section className="md:h-[470px] h-[250px] explore-bg pt-8 bg-[#070B24]">
         <Nav />
         <Hero />
       </section>
