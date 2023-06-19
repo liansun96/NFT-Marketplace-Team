@@ -76,6 +76,13 @@
     background-position: top center;
   }
 
+  .blog-bg {
+    background-image: url("https://themebeyond.com/html/nftmak/assets/img/bg/breadcrumb_bg.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
   .active {
     @apply text-purple;
   }

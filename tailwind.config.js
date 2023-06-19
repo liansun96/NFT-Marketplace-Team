@@ -14,6 +14,10 @@ export default {
       spacing: {
         '100': '25rem',
         '104': '26rem',
+        '108': '27rem',
+        '112': '28rem',
+        '116': '29rem',
+        '120': '30rem',
       },
       colors: {
         primary: "#1D1933",
