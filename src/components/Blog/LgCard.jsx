@@ -4,8 +4,8 @@ import { BiSearch } from "react-icons/bi";
 import supermarket from '../../assets/supermarket.png'
 import user from '../../assets/user.png'
 import calendar from '../../assets/calendar.png'
-import Post from "./Post";
-import DetailForm from "./DetailForm";
+// import Post from "./Post";
+// import DetailForm from "./DetailForm";
 
 const LgCard = () => {
   const cardItems = [

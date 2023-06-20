@@ -20,7 +20,7 @@ const MarketSingle = () => {
             <Nav />
           </div>
 
-          <div className="my-6 mx-3 sm:mx-0 lg:mx-14 flex justify-between lg:px-3 sm:px-4">
+          <div className="my-6 mx-3 sm:mx-0 lg:mx-14 flex 3xl:mx-auto 3xl:w-3/4 3xl:px-10 justify-between lg:px-3 sm:px-4">
             <div className="">
               <h1 className="sm:p-4 p-2 text-gray-300 px-4 sm:px-6 text-xs sm:text-sm rounded-full  hover:bg-[#E039FD] duration-200 bg-[#241F3D] font-semibold">
                 GO BACK TO HOME
@@ -43,7 +43,8 @@ const MarketSingle = () => {
         {/* container  */}
         <div className=" col-span-8 lg:mx-14 grid gap-2 mx-auto grid-cols-8">
           {/* img */}
-          <div className=" p-3 sm:max-md:col-span-8 col-span-8 lg:col-span-4">
+          <div className="hidden 3xl:block col-span-1"></div>
+          <div className=" p-3 sm:max-md:col-span-8 col-span-8 3xl:col-span-3 lg:col-span-4">
             <motion.img
               className="mx-auto "
               src="https://themebeyond.com/html/nftmak/assets/img/others/market_details_img.png"
@@ -51,7 +52,7 @@ const MarketSingle = () => {
             />
           </div>
           {/* text */}
-          <div className=" p-3 sm:max-md:col-span-8 sm:max-md:px-8 col-span-8 lg:col-span-4">
+          <div className=" p-3 sm:max-md:col-span-8 sm:max-md:px-8 3xl:col-span-3 col-span-8 lg:col-span-4">
             {/* header  */}
             <div className="flex justify-between">
               <div className="">
@@ -166,8 +167,9 @@ const MarketSingle = () => {
         </div>
         {/* second container  */}
         <div className=" lg:mx-14 col-span-8 my-8  grid gap-2 mx-auto grid-cols-8">
+          <div className="hidden 3xl:block col-span-1"></div>
           {/* scroll */}
-          <div className="md:px-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto">
+          <div className="md:px-3 3xl:col-span-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto">
             {/* <div className="md:px-3 px-6 col-span-8 md:max-lg:mx-auto  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto"> */}
             <div className="relative overflow-x-auto sm:rounded-lg">
               <div className="w-[600px] h-[445px]">
@@ -176,7 +178,7 @@ const MarketSingle = () => {
                     <tr className="text-white ">
                       <th
                         colSpan={2}
-                        className="text-2xl font-[poppins] py-4 ps-3 font-semibold text-start"
+                        className="text-3xl font-[poppins] py-4 ps-3 font-semibold text-start"
                       >
                         Description
                       </th>
@@ -259,7 +261,7 @@ const MarketSingle = () => {
             </div>
           </div>
           {/* right scroll   */}
-          <div className=" text-white p-3 xl:px-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto sm:max-md:px-11">
+          <div className=" text-white 3xl:col-span-3 p-3 xl:px-3 px-2 sm:px-6 col-span-8  md:col-span-4 sm:max-md:col-span-8 sm:max-md:mx-auto sm:max-md:px-11">
             <div className="felx">
               <div className="grid grid-cols-8 border-b-2 mb-3 border-gray-800 py-2 pb-4">
                 <div className="col-span-3 xl:col-span-2 md:max-lg:col-span-3">
@@ -309,7 +311,8 @@ const MarketSingle = () => {
         <div className=" lg:mx-14 grid grid-cols-8 relative overflow-x-auto  mt-3">
           {/* <div className="col-span-1 bg-slate-700"></div> */}
           {/* container  */}
-          <div className=" col-span-8 ">
+          <div className="hidden 3xl:block col-span-1"></div>
+          <div className=" col-span-8 3xl:col-span-6 ">
             <div className="">
               <div className="justify-start ms-4 my-8 mb-10 flex">
                 <h1 className="font-[poppins] text-3xl font-bold text-white  ">
@@ -594,7 +597,7 @@ const MarketSingle = () => {
                         type="submit"
                         className="absolute top-0 right-0 p-2.5 h-[50px] px-5 text-sm font-medium  bg-gradient-to-r from-[#5338B5] to-[#DF39FD] rounded-e-md"
                       >
-                        <FaRocket className="text-white text-2xl" />
+                        <FaRocket className="text-white text-3xl" />
                         <span className="sr-only">Search</span>
                       </button>
                     </div>
