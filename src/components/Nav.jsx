@@ -81,9 +81,11 @@ const Nav = () => {
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding
                           </li>
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            Create Item
-                          </li>
+                          <Link to={"/create"}>
+                            <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                              Create Item
+                            </li>
+                          </Link>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Author Profile
                           </li>
