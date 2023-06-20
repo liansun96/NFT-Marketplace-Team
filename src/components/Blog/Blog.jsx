@@ -12,7 +12,6 @@ const Blog = () => {
   return (
     <Layout>
       <main className=" bg-[#070B24] w-full lg:pl-[110px]">
-        <Rsidebar />
         <div className=" w-full h-112 pt-8 blog-bg ">
           <Nav />
           <h2 className="text-4xl text-white text-center font-semibold mt-20 md:mt-40">

@@ -1,3 +1,5 @@
+import plugin from 'tailwindcss';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,6 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
+  plugins: [
+    plugin(function({ addVariant }) {
+        addVariant('current', '&.active');
+    })
+],
   theme: {
     extend: {
       screens: {
