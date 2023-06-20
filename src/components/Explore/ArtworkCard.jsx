@@ -22,7 +22,7 @@ const ArtworkCard = ({ artwork }) => {
       <div className="">
         <img
           src={artwork?.image}
-          className="md:w-[300px] lg:w-[220px] 2xl:w-[245px] 3xl:w-[255px] rounded-lg"
+          className="md:w-[290px] lg:w-[220px] 2xl:w-[245px] 3xl:w-[255px] rounded-lg"
           alt=""
         />
       </div>

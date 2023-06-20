@@ -10,8 +10,8 @@ const Profile = () => {
   return (
     <div className="bg-info">
       <div className="py-10 lg:py-20 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto ">
-        <div className="flex flex-col-reverse lg:flex-row gap-5 items-start justify-start">
-          <div className="bg-primary p-5 rounded-xl shadow-md w-full lg:w-[25%]">
+        <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-5 items-start justify-start">
+          <div className="bg-primary p-5 rounded-xl shadow-md w-full md:w-[50%] lg:w-[75%] mx-auto">
             <div className="mb-5">
               <img
                 src="https://themebeyond.com/html/nftmak/assets/img/others/author_profile.png"
@@ -60,7 +60,7 @@ const Profile = () => {
                       <RiFacebookFill className="text-heading_text text-xl" />
                     </div>
                   </div>
-                  <div className="flex md:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
+                  <div className="flex lg:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
                     <div className="">
                       <p>Facebook/</p>
                     </div>
@@ -75,7 +75,7 @@ const Profile = () => {
                       <RiMessengerFill className="text-heading_text text-xl" />
                     </div>
                   </div>
-                  <div className="flex md:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
+                  <div className="flex lg:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
                     <div className="">
                       <p>Messenger/</p>
                     </div>
@@ -90,7 +90,7 @@ const Profile = () => {
                       <RiWhatsappFill className="text-heading_text text-xl" />
                     </div>
                   </div>
-                  <div className="flex md:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
+                  <div className="flex lg:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
                     <div className="">
                       <p>Whatsapp/</p>
                     </div>
@@ -105,7 +105,7 @@ const Profile = () => {
                       <RiYoutubeFill className="text-heading_text text-xl" />
                     </div>
                   </div>
-                  <div className="flex md:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
+                  <div className="flex lg:flex-col items-center text-xs font-semibold text-heading_text cursor-pointer hover:text-purple duration-300">
                     <div className="">
                       <p>Youtube/</p>
                     </div>
@@ -117,9 +117,9 @@ const Profile = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-[75%]">
+          <div className="w-full lg:w-[75%]">
             <div className="p-5 bg-primary w-full rounded mb-10">
-              <div className="flex flex-col md:flex-row  items-start gap-5">
+              <div className="flex flex-col md:flex-row  items-center gap-5">
                 <div className="flex items-center gap-5">
                   <div className="bg-gradient-to-r from-[#6345ed] to-[#bc3cd3] px-5 py-2 rounded-full border border-icon cursor-pointer">
                     <p className="text-heading_text text-xs  font-semibold">
