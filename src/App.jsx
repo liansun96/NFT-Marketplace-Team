@@ -14,6 +14,7 @@ import Collection from "./components/Collection/Collection";
 import LoginAndRegister from "./components/LoginAndRegister/LoginAndRegister";
 
 import BlogDetail from "./components/Blog/BlogDetail";
+import CreateItem from "./components/Blog/CreateItem";
 
 const App = () => {
   return (
@@ -25,7 +26,11 @@ const App = () => {
           <Route path="info" element={<Info />} />
           <Route path="pro" element={<Provenance />} />
         </Route>
+
         <Route path="/explore" element={<Explore />} />
+
+        <Route path="/create" element={<CreateItem/>}/>
+
         <Route path="/blog" element={<Blog />} />
 
         <Route path="/blog-detail" element={<BlogDetail />} />
