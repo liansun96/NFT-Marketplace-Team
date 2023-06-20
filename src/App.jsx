@@ -13,6 +13,7 @@ import Explore from "./components/Explore/Explore";
 
 import Blog from './components/Blog/Blog'
 import Collection from "./components/Collection/Collection";
+import AuthorProfile from "./components/AuthorProfile/AuthorProfile";
 
 const App = () => {
 
@@ -34,6 +35,9 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
 
         <Route path="/collection" element={<Collection/>} />
+
+        <Route path="/authorprofile" element={<AuthorProfile/>} />
+        
 
         
 

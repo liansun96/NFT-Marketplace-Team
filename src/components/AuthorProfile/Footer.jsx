@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="">
-      <div className="bg-primary pb-20 md:pb-0">
-        <div className="p-5 pt-16 w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
+      <div className="bg-primary">
+        <div className="py-16 w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
           <div className="flex flex-wrap justify-between ms:flex-col lg:flex-row items-start gap-16 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">
               <div className="">
@@ -133,7 +133,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-info">
+      <div className="bg-info pb-20 md:pb-0">
         <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7 px-1 lg:py-7 lg:px-16 3xl:w-[70%] mx-auto">
           <div className="">
             <p className="text-body_text text-xs lg:text-sm font-semibold">

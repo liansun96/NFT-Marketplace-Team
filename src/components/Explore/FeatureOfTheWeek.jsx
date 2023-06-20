@@ -6,7 +6,7 @@ const FeatureOfTheWeek = () => {
   return (
     <div className="bg-warning">
       <div className="w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
-        <div className="pt-20">
+        <div className="py-20">
           <div className="flex items-center gap-2">
             <h1 className="font-semibold text-2xl text-heading_text">
               Features of the week
@@ -20,7 +20,7 @@ const FeatureOfTheWeek = () => {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-5 mt-10 pb-20">
+          <div className="flex flex-col lg:flex-row gap-5 mt-10">
             {features?.map((feature) => (
               <FeaturesCard  key={feature?.id} feature={feature}/>
             ))}
