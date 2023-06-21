@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="">
       <div className="bg-primary">
-        <div className="py-16 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
+        <div className="py-16 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
           <div className="flex flex-wrap justify-between ms:flex-col lg:flex-row items-start gap-16 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">
               <div className="">
@@ -134,7 +134,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-info  pb-20 lg:pb-0">
-        <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%]  mx-auto">
+        <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%]  mx-auto">
           <div className="">
             <p className="text-body_text text-xs lg:text-sm font-semibold">
               All rights reserved © 2022 by{" "}
