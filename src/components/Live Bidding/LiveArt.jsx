@@ -7,7 +7,7 @@ import LiveCards from "./LiveCards";
 const LiveArt = () => {
   return (
     <div className="bg-info">
-      <div className="py-10 md:pt-10 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto ">
+      <div className="py-10 md:pt-10 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto ">
         <div className="flex gap-2 items-center ">
           <h1 className="text-2xl font-semibold  text-heading_text">
             Live Bidding

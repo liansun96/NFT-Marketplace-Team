@@ -5,7 +5,7 @@ import FeaturesCard from "./FeaturesCard";
 const FeatureOfTheWeek = () => {
   return (
     <div className="bg-warning">
-      <div className="w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
+      <div className="w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
         <div className="py-20">
           <div className="flex items-center gap-2">
             <h1 className="font-semibold text-2xl text-heading_text">

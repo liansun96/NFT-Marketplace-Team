@@ -6,7 +6,7 @@ import { browsers } from "./CollectionImage/Image";
 const BrowserByCategory = () => {
   return (
     <div className="bg-warning">
-      <div className="w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
+      <div className="w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
         <div className="pt-20">
         <div className="flex flex-col md:flex-row gap-5  justify-between items-start md:items-center">
         <div className="flex items-center gap-2">
