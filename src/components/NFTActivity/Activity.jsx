@@ -11,7 +11,7 @@ const Activity = () => {
   return (
     <div className="h-min bg-dark py-20">
       <div className="flex items-start gap-5 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
-        <div className="w-[25%] space-y-4">
+        <div className="w-full md:w-[25%] space-y-4">
           <div className="group flex items-center justify-start p-5 gap-4 bg-primary border border-header_border w-full h-[85px] rounded-xl">
             <ImBug className="text-icon text-4xl duration-300 group-hover:text-purple" />
             <div className=" ">
@@ -48,7 +48,7 @@ const Activity = () => {
             </h6>
           </div>
         </div>
-        <div className="w-[75%]">
+        <div className="w-full md:w-[75%]">
           <div className="flex flex-col md:flex-row items-center justify-around lg:justify-between p-5 lg:px-20 lg:p-10 h-[300px] lg:h-[200px]  mx-auto rounded-[13px] activity-bg">
             <div className="">
               <img

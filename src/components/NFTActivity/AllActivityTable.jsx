@@ -130,7 +130,7 @@ const AllActivityTable = () => {
                           <span>{tab.price[0]}</span>
                         </div>
                       </td>
-                      <td className="">{tab.quantity[0]}</td>
+                      <td className="translate-x-5">{tab.quantity[0]}</td>
                       <td>{tab.from}</td>
                       <td>{tab.to}</td>
                       <td>{tab.time[0]}</td>
@@ -147,7 +147,7 @@ const AllActivityTable = () => {
                           <span>{tab.price[1]}</span>
                         </div>
                       </td>
-                      <td>{tab.quantity[1]}</td>
+                      <td className="translate-x-5">{tab.quantity[1]}</td>
                       <td>{tab.from}</td>
                       <td>{tab.to}</td>
                       <td>{tab.time[1]}</td>
@@ -164,7 +164,7 @@ const AllActivityTable = () => {
                           <span>{tab.price[2]}</span>
                         </div>
                       </td>
-                      <td>{tab.quantity[2]}</td>
+                      <td className="translate-x-5">{tab.quantity[2]}</td>
                       <td>{tab.from}</td>
                       <td>{tab.to}</td>
                       <td>{tab.time[2]}</td>
@@ -181,7 +181,7 @@ const AllActivityTable = () => {
                           <span>{tab.price[3]}</span>
                         </div>
                       </td>
-                      <td>{tab.quantity[3]}</td>
+                      <td className="translate-x-5">{tab.quantity[3]}</td>
                       <td>{tab.from}</td>
                       <td>{tab.to}</td>
                       <td>{tab.time[3]}</td>
@@ -198,7 +198,7 @@ const AllActivityTable = () => {
                           <span>{tab.price[4]}</span>
                         </div>
                       </td>
-                      <td>{tab.quantity[4]}</td>
+                      <td className="translate-x-5">{tab.quantity[4]}</td>
                       <td>{tab.from}</td>
                       <td>{tab.to}</td>
                       <td>{tab.time[4]}</td>
@@ -215,7 +215,7 @@ const AllActivityTable = () => {
                           <span>{tab.price[5]}</span>
                         </div>
                       </td>
-                      <td>{tab.quantity[5]}</td>
+                      <td className="translate-x-5">{tab.quantity[5]}</td>
                       <td>{tab.from}</td>
                       <td>{tab.to}</td>
                       <td>{tab.time[5]}</td>
