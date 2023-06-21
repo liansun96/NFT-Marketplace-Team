@@ -60,12 +60,7 @@ const Nav = () => {
                       <div className="bg-primary border border-header_border custom-shoadow-lg px-3 py-4">
                         <ul className="text-heading_text text-sm tracking-wider space-y-[3px]">
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            <NavLink to={"/marketsingle"}>
-                              Market Single
-                            </NavLink>
-                          </li>
-                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            Activity
+                            <NavLink to={"/nftactivity"}>Activity</NavLink>
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             <NavLink to={"/category"}>
@@ -77,6 +72,11 @@ const Nav = () => {
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Creators
+                          </li>
+                          <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                            <NavLink to={"/marketsingle"}>
+                              Market Single
+                            </NavLink>
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             Live Bidding

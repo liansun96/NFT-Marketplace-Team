@@ -43,6 +43,7 @@ export default {
         dark_blue: "#6345ED",
         media_bg:"#28243F",
         dark: "#070B24",
+        table_bg:"#25223f",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
