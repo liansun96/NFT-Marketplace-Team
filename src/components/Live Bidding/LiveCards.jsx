@@ -22,7 +22,7 @@ const LiveCards = ({ live }) => {
       <div className="">
         <img
           src={live?.image}
-          className="md:w-[290px] lg:w-[220px] 2xl:w-[245px] 3xl:w-[255px] rounded-lg"
+          className="md:w-[270px] lg:w-[220px] 2xl:w-[245px] 3xl:w-[255px] rounded-lg"
           alt=""
         />
       </div>

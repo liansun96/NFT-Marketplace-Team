@@ -9,7 +9,7 @@ import { cards } from "./Cards";
 const Profile = () => {
   return (
     <div className="bg-info">
-      <div className="py-10 lg:py-20 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto ">
+      <div className="py-10 lg:py-20 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
         <div className="flex flex-col-reverse lg:flex-row gap-10 lg:gap-5 items-start justify-start">
           <div className="bg-primary p-5 rounded-xl shadow-md w-full md:w-[50%] lg:w-[25%] mx-auto">
             <div className="mb-5">
