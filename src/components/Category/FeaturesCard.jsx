@@ -13,7 +13,7 @@ const FeaturesCard = ({ feature }) => {
               {feature?.title}
             </h1>
             <p className="text-xs text-body_text">
-              Created by{" "}
+              Created by
               <span className="font-semibold text-heading_text hover:text-purple cursor-pointer">
                 {feature?.name}
               </span>

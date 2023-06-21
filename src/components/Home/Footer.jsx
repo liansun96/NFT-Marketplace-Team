@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="">
       <div className="bg-secondary">
-        <div className="p-5 py-16 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
+        <div className=" py-16 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
           <div className="flex flex-wrap ms:flex-col lg:flex-row justify-between items-start gap-16 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">
               <div className="">
@@ -121,7 +121,7 @@ const Footer = () => {
                 <div className="">
                   <input
                     type="text"
-                    className="px-5 bg-transparent outline-none text-heading_text"
+                    className="px-5 w-[250px] bg-transparent outline-none text-heading_text"
                     placeholder="info@youmail.com"
                   />
                 </div>
@@ -133,7 +133,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-info ">
+      <div className="bg-info pb-[60px] mb:pb-0 ">
         <div className="w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7">
           <div className="">
             <p className="text-body_text text-xs lg:text-sm font-semibold">
@@ -144,15 +144,15 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex items-center gap-1">
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-light md:font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Privacy Policy
             </p>
             <p className="text-icon text-sm">|</p>
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-light md:font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Terms And Condition
             </p>
             <p className="text-icon text-sm">|</p>
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-light md:font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Contact Us
             </p>
           </div>
