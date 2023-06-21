@@ -12,8 +12,9 @@ import Blog from "./components/Blog/Blog";
 import Collection from "./components/Collection/Collection";
 
 import LoginAndRegister from "./components/LoginAndRegister/LoginAndRegister";
+import NFTActivity from "./components/NFTActivity/NFTActivity";
 
-import BlogDetail from "./components/Blog/BlogDetail";
+// import BlogDetail from "./components/Blog/BlogDetail";
 
 const App = () => {
   return (
@@ -28,8 +29,9 @@ const App = () => {
         <Route path="/explore" element={<Explore />} />
         <Route path="/blog" element={<Blog />} />
 
-        <Route path="/blog-detail" element={<BlogDetail />} />
+        
 
+        <Route path="/nftactivity" element={<NFTActivity />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/loginandregister" element={<LoginAndRegister />} />
       </Routes>
