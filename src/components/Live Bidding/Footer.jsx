@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="">
       <div className="bg-primary">
-        <div className="py-16 w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
+        <div className="py-16 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
           <div className="flex flex-wrap justify-between ms:flex-col lg:flex-row items-start gap-16 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">
               <div className="">
@@ -144,15 +144,15 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex items-center gap-1">
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Privacy Policy
             </p>
             <p className="text-icon text-sm">|</p>
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Terms And Condition
             </p>
             <p className="text-icon text-sm">|</p>
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Contact Us
             </p>
           </div>

@@ -11,7 +11,7 @@ import PopularCard from "./PopularCard";
 const PopularCreators = () => {
   return (
     <div className="bg-info">
-      <div className="py-10 md:pt-10 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
+      <div className="py-10 md:pt-10 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
         <div className="flex items-center gap-3 mb-10">
           <h1 className="text-heading_text text-2xl font-semibold">
             Popular Creators
