@@ -15,6 +15,7 @@ import CreateItem from "./components/Blog/CreateItem";
 import AuthorProfile from "./components/AuthorProfile/AuthorProfile";
 import Creators from "./components/Creators/Creators";
 import LiveBidding from "./components/Live Bidding/LiveBidding";
+import Ranking from "./components/Ranking/Ranking";
 
 const App = () => {
   return (
@@ -40,7 +41,8 @@ const App = () => {
         <Route path="/livebidding" element={<LiveBidding />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogdetail" element={<BlogDetail />} />
-
+        <Route path="/ranking" element={<Ranking />} />
+        
         <Route path="/nftactivity" element={<NFTActivity />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/category" element={<Category />} />
