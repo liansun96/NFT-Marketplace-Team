@@ -134,7 +134,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-info pb-20 lg:pb-0">
-        <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7 px-1 lg:py-7 lg:px-16 3xl:w-[70%] mx-auto">
+        <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-1 md:gap-3 py-7 px-1 lg:py-7 lg:px-16 3xl:w-[70%] mx-auto">
           <div className="">
             <p className="text-body_text text-xs lg:text-sm font-semibold">
               All rights reserved © 2022 by{" "}
