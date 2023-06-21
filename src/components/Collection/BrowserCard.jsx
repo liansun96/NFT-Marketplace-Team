@@ -10,7 +10,7 @@ const BrowserCard = ({ browser }) => {
             <img src={browser?.profile} alt="" />
           </div>
           <div className="flex-col">
-            <h1 className="font-semibold text-heading_text text-lg hover:text-purple cursor-pointer">
+            <h1 className="font-semibold text-heading_text text-sm md:text-lg hover:text-purple cursor-pointer">
               {browser?.title}
             </h1>
             <p className="text-sm text-body_text">

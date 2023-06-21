@@ -10,6 +10,7 @@ import Layout from "../Layout";
 
 const Collection = () => {
   return (
+
     <Layout>
       <div className="lg:pl-[110px] relative">
         <section className="md:h-[470px] h-[250px] explore-bg pt-8 bg-[#070B24]">
