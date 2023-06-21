@@ -11,7 +11,7 @@ import MobileMenu from "./MobileMenu";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(true);
   return (
-    <div className="w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto border border-slate-800  p-[7px] rounded-xl relative">
+    <div className="w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto border border-slate-800  p-[7px] rounded-xl relative">
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-2 md:px-4 lg:px-6">
           <div className="flex items-center gap-6">

@@ -10,7 +10,7 @@ import Activity from "./Activity";
 const LoginAndRegister = () => {
   return (
     <Layout>
-      <div className="md:pl-[110px]">
+      <div className="lg:pl-[110px]">
         <section className="md:h-[470px] h-[250px] explore-bg pt-8 bg-[#070B24]">
           <Nav />
           <Hero />

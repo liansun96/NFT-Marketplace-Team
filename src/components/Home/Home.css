@@ -68,7 +68,7 @@
 
 @media screen and (min-width:786px){
   .swiper .swiper-button-prev {
-    transform: translate(610px , -290px)!important;
+    transform: translate(570px , -290px)!important;
     padding: 10px;
     transform: scale(0.9);
     color: white;
