@@ -10,11 +10,11 @@ import Provenance from "./components/MarketSingle/Nest/Provenance";
 import Explore from "./components/Explore/Explore";
 import Blog from "./components/Blog/Blog";
 import Collection from "./components/Collection/Collection";
-
 import LoginAndRegister from "./components/LoginAndRegister/LoginAndRegister";
 import NFTActivity from "./components/NFTActivity/NFTActivity";
-
-// import BlogDetail from "./components/Blog/BlogDetail";
+import Category from "./components/Category/Category";
+import BlogDetail from "./components/Blog/BlogDetail";
+import CreateItem from "./components/Blog/CreateItem";
 
 const App = () => {
   return (
@@ -26,13 +26,18 @@ const App = () => {
           <Route path="info" element={<Info />} />
           <Route path="pro" element={<Provenance />} />
         </Route>
+
         <Route path="/explore" element={<Explore />} />
+
+        <Route path="/create" element={<CreateItem />} />
+
         <Route path="/blog" element={<Blog />} />
 
-        
+        <Route path="/blog-detail" element={<BlogDetail />} />
 
         <Route path="/nftactivity" element={<NFTActivity />} />
         <Route path="/collection" element={<Collection />} />
+        <Route path="/category" element={<Category />} />
         <Route path="/loginandregister" element={<LoginAndRegister />} />
       </Routes>
     </div>

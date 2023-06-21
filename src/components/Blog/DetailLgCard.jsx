@@ -1,14 +1,13 @@
 import React from "react";
 import { FaAngleDoubleRight, FaShareAlt } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
+import supermarket from '../../assets/supermarket.png'
+import user from '../../assets/user.png'
+import calendar from '../../assets/calendar.png'
+import Post from "./Post";
+import DetailForm from "./DetailForm";
 
-import supermarket from "../../assets/supermarket.png";
-import user from "../../assets/user.png";
-import calendar from "../../assets/calendar.png";
-
-
-
-const LgCard = () => {
+const DetailLgCard = () => {
   const cardItems = [
     {
       id: 1,
@@ -17,7 +16,7 @@ const LgCard = () => {
       title: "Marketplace is the online shop for the video",
       tag: [
         {
-          id: 1,
+          id: 1,        
           icon: supermarket,
           title: "NFT Marketplace",
         },
@@ -42,7 +41,7 @@ const LgCard = () => {
       title: "Marketplace is the online shop for the video",
       tag: [
         {
-          id: 1,
+          id: 1,        
           icon: supermarket,
           title: "NFT Marketplace",
         },
@@ -67,7 +66,7 @@ const LgCard = () => {
       title: "Marketplace is the online shop for the video",
       tag: [
         {
-          id: 1,
+          id: 1,        
           icon: supermarket,
           title: "NFT Marketplace",
         },
@@ -105,16 +104,12 @@ const LgCard = () => {
                         className="flex gap-3 mr-5 md:mr-0 items-center justify-center "
                       >
                         <img className="w-4 h-4" src={tag.icon} alt="" />
-                        <p className="hover:text-[#D83AFC] cursor-pointer">
-                          {tag.title}
-                        </p>
+                        <p className="hover:text-[#D83AFC] cursor-pointer">{tag.title}</p>
                       </li>
                     );
                   })}
                 </ul>
-                <h2 className="font-semibold text-2xl mt-5 mb-5 hover:text-[#D83AFC] cursor-pointer">
-                  {item.title}
-                </h2>
+                <h2 className="font-semibold text-2xl mt-5 mb-5 hover:text-[#D83AFC] cursor-pointer">{item.title}</h2>
                 <p className="pb-10">{item.description}</p>
                 <img src="https://themebeyond.com/html/nftmak/assets/img/blog/blog_line.png" />
                 <div className="py-5 flex justify-between">
@@ -131,6 +126,8 @@ const LgCard = () => {
             </div>
           );
         })}
+      <Post/>
+      <DetailForm/>
       </div>
       <div className="md:w-[30%]">
         <div className="bg-[#1C1832] w-full rounded-lg p-8">
@@ -149,9 +146,7 @@ const LgCard = () => {
           </div>
         </div>
         <div className="bg-[#1C1832] w-full rounded-lg p-8 my-10">
-          <h2 className="font-semibold text-[#E6E6D4] text-xl mb-5">
-            Categories
-          </h2>
+          <h2 className="font-semibold text-[#E6E6D4] text-xl mb-5">Categories</h2>
           <ul>
             <li className="text-gray-200 hover:text-[#D83AFC] cursor-pointer border-b border-dashed border-gray-500 py-2.5 flex justify-between items-center">
               <p>Domain Names</p>
@@ -172,42 +167,34 @@ const LgCard = () => {
           </ul>
         </div>
         <div className="bg-[#1C1832] w-full rounded-lg p-8 my-10">
-          <h2 className="font-semibold text-[#E6E6D4] text-xl mb-5">
-            Recent Post
-          </h2>
-          {cardItems
-            .filter((item) => item.id !== 1)
-            .map((el) => {
-              return (
-                <div key={el.id}>
-                  <img src={el.image} alt="" />
-                  <ul className="flex gap-5">
-                    {el.tag
-                      .filter((item) => item.id !== 1)
-                      .map((tag) => {
-                        return (
-                          <li
-                            key={tag.id}
-                            className="flex gap-3 my-3 items-center text-[#E6E6D4] "
-                          >
-                            <img className="w-4 h-4" src={tag.icon} alt="" />
-                            <span className="hover:text-[#D83AFC] cursor-pointer">
-                              {tag.title}
-                            </span>
-                          </li>
-                        );
-                      })}
-                  </ul>
-                  <h2 className="font-semibold text-xl text-[#E6E6D4] mb-5 hover:text-[#D83AFC] cursor-pointer">
-                    {el.title}
-                  </h2>
-                </div>
-              );
-            })}
+            <h2 className="font-semibold text-[#E6E6D4] text-xl mb-5">Recent Post</h2>
+            {
+                cardItems.filter(item => item.id !== 1).map(el => {
+                    return <div key={el.id}>
+                        <img src={el.image} alt="" />
+                        <ul className="flex gap-5">
+                        {
+                            el.tag.filter(item=> item.id !== 1).map(tag => {
+                                return (
+                                    <li
+                                    key={tag.id}
+                                    className="flex gap-3 my-3 items-center text-[#E6E6D4] "
+                                  >
+                                    <img className="w-4 h-4" src={tag.icon} alt="" />
+                                    <span className="hover:text-[#D83AFC] cursor-pointer">{tag.title}</span>
+                                  </li>
+                                )
+                            })
+                        }
+                        </ul>
+                <h2 className="font-semibold text-xl text-[#E6E6D4] mb-5 hover:text-[#D83AFC] cursor-pointer">{el.title}</h2>
+                    </div>
+                })
+            }
         </div>
       </div>
     </div>
   );
 };
 
-export default LgCard;
+export default DetailLgCard;
