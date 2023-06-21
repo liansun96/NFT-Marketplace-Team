@@ -21,7 +21,7 @@ const PopularCreators = () => {
             alt=""
           />
         </div>
-        <div className="flex items-center gap-5 justify-between">
+        <div className="flex items-center gap-5 justify-between creator-swiper">
           <Swiper
             slidesPerView={5}
             spaceBetween={30}
