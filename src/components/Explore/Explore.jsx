@@ -8,31 +8,36 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import Rsidebar from "../Blog/Rsidebar";
 import ScrollBtn from "../ScrollBtn";
+import Layout from "../Layout";
 
 const Explore = () => {
   return (
-    <div className="lg:pl-[110px] relative">
-      <section className="md:h-[470px] h-[250px] explore-bg pt-3 md:pt-8 bg-[#070B24]">
-        <Nav />
-        <Hero />
-      </section>
+    <Layout>
+      <div className="lg:pl-[110px] relative">
+        <section className="md:h-[470px] h-[250px] explore-bg pt-8 bg-[#070B24]">
+          <Nav />
+          <Hero />
+        </section>
 
-      <section>
-        <Category />
-      </section>
+        <section className="block md:hidden"></section>
 
-      <section>
-        <Artworks />
-      </section>
+        <section>
+          <Category />
+        </section>
 
-      <section>
-        <FeatureOfTheWeek />
-      </section>
+        <section>
+          <Artworks />
+        </section>
 
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+        <section>
+          <FeatureOfTheWeek />
+        </section>
+
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </Layout>
   );
 };
 

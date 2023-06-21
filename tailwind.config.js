@@ -1,3 +1,5 @@
+import plugin from 'tailwindcss';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,6 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
+  plugins: [
+    plugin(function({ addVariant }) {
+        addVariant('current', '&.active');
+    })
+],
   theme: {
     extend: {
       screens: {
@@ -14,6 +21,10 @@ export default {
       spacing: {
         '100': '25rem',
         '104': '26rem',
+        '108': '27rem',
+        '112': '28rem',
+        '116': '29rem',
+        '120': '30rem',
       },
       colors: {
         primary: "#1D1933",
@@ -21,6 +32,7 @@ export default {
         info: "#0e1029",
         warning:"#10112a",
         body_text: "#C9C9C9",
+        text_secondary :"#AAA9A9",  
         heading_text: "#fff",
         header_border: "#322C50",
         border: "#2c1933",
@@ -30,11 +42,7 @@ export default {
         purple: "#E039FD",
         dark_blue: "#6345ED",
         media_bg:"#28243F",
-        dark: {
-          100: "#52575b",
-          200: "#3c4043",
-          300: "#43474a",
-        },
+        dark: "#070B24",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],

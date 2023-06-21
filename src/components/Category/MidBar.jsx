@@ -44,7 +44,7 @@ const MidBar = () => {
     },
   ];
   return (
-    <div className="flex w-full bg-[#1C1832] flex-wrap justify-center py-5 lg:py-8 items-center">
+    <div className="flex w-full bg-[#1C1832] flex-wrap justify-center py-6 items-center">
       {listItem.map((item) => {
         return (
           <div key={item.id} className="px-5 text-gray-400 py-2 first:text-white flex gap-2 justify-center items-center">
