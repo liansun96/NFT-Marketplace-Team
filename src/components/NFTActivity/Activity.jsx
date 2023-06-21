@@ -10,8 +10,8 @@ import AllActivityTable from "./AllActivityTable";
 const Activity = () => {
   return (
     <div className="h-min bg-dark py-20">
-      <div className="flex items-start gap-5 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
-        <div className="w-full md:w-[25%] space-y-4">
+      <div className="flex flex-col-reverse lg:flex-row items-start gap-5 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
+        <div className="w-full md:w-[25%] space-y-4 mt-10 lg:mt-0">
           <div className="group flex items-center justify-start p-5 gap-4 bg-primary border border-header_border w-full h-[85px] rounded-xl">
             <ImBug className="text-icon text-4xl duration-300 group-hover:text-purple" />
             <div className=" ">
@@ -49,16 +49,16 @@ const Activity = () => {
           </div>
         </div>
         <div className="w-full md:w-[75%]">
-          <div className="flex flex-col md:flex-row items-center justify-around lg:justify-between p-5 lg:px-20 lg:p-10 h-[300px] lg:h-[200px]  mx-auto rounded-[13px] activity-bg">
+          <div className="flex flex-col md:flex-row items-center justify-around lg:justify-between p-5 lg:px-20 lg:p-10 h-min lg:h-[200px]  mx-auto rounded-[13px] activity-bg">
             <div className="">
               <img
                 src="https://themebeyond.com/html/nftmak/assets/img/others/welcome_img01.png"
                 alt="welcome-img"
-                className="mb-16"
+                className="lg:mb-16"
               />
             </div>
-            <div className="text-start space-y-4">
-              <h3 className="text-3xl text-heading_text font-bold md:tracking-wide leading-[30px] md:leading-[60px]">
+            <div className="text-center lg:text-start space-y-4">
+              <h3 className="text-xl lg:text-3xl text-heading_text font-bold md:tracking-wide leading-[30px] md:leading-[60px]">
                 Welcome To NFT Activity
               </h3>
               <p className="text-text_secondary font-semibold">

@@ -45,27 +45,21 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
           </div>
           <div className="border border-icon_border" />
           <div className="ps-6 pe-1 my-2">
-            <Link to={"/"}>
-              <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
-                Home
-              </p>
-            </Link>
+            <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
+              <NavLink to={"/"}>Home</NavLink>
+            </p>
           </div>
           <div className="border border-icon_border" />
           <div className="ps-6 pe-1 my-2">
-            <Link to={"/explore"}>
-              <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
-                Explore
-              </p>
-            </Link>
+            <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
+              <NavLink to={"/explore"}>Explore</NavLink>
+            </p>
           </div>
           <div className="border border-icon_border" />
           <div className="ps-6 pe-1 my-2">
-            <Link>
-              <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
-                Collection
-              </p>
-            </Link>
+            <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
+              <NavLink to={"/collection"}>Collection</NavLink>
+            </p>
           </div>
           <div className="border border-icon_border" />
           <div className="flex justify-between items-center ps-6 pe-2 mt-2">
@@ -93,37 +87,33 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             }
           >
             <ul className="text-heading_text text-sm tracking-wider space-y-[3px] ms-8">
-              <NavLink to={"/marketsingle"}>
-                <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                  Market Single
-                </li>
-              </NavLink>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Activity
+                <NavLink to={"/nftactivity"}>Activity</NavLink>
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Category
+                <NavLink to={"/category"}>Category</NavLink>
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Ranking
+                <NavLink to={"/ranking"}>Ranking</NavLink>
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Creators
+                <NavLink to={"/creators"}>Creators</NavLink>
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Live Bidding
+                <NavLink to={"/marketsingle"}>Market Single</NavLink>
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Create Item
+                <NavLink to={"/livebidding"}>Live Bidding</NavLink>
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Author Profile
+                <NavLink to={"/createitem"}>Create Item</NavLink>
               </li>
-              <NavLink to={'/loginandregister'}>
-                <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                  Login & Register
-                </li>
-              </NavLink>
+              <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                <NavLink to={"/authorprofile"}>Author Profile</NavLink>
+              </li>
+              <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                <NavLink to={"/loginandregister"}>Login & Register</NavLink>
+              </li>
             </ul>
           </div>
           <div className="border border-icon_border" />
@@ -152,13 +142,11 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             }
           >
             <ul className="text-heading_text text-sm tracking-wider space-y-[3px] ms-8">
-              <Link to={"/blog"}>
-                <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                  Our Blog
-                </li>
-              </Link>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                Blog Details
+                <NavLink to={"/blog"}>Our Blog</NavLink>
+              </li>
+              <li className="hover:text-dark_blue px-2 py-2 duration-300">
+                <NavLink to={"/blogdetail"}>Blog Details</NavLink>
               </li>
             </ul>
           </div>

@@ -79,9 +79,9 @@ const AllActivityTable = () => {
 
   return (
     <div className="bg-primary flex flex-col items-center w-full h-min rounded-xl  border-[0.5px] border-header_border mt-5">
-      <div className="w-[90%] flex flex-col gap-5 my-10">
+      <div className="w-[90%] overflow-x-auto flex flex-col gap-5 my-10">
         <div className="container">
-          <div className="flex items-center gap-10">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
             <h4 className="text-2xl text-heading_text font-bold md:tracking-wide leading-[30px] md:leading-[60px]">
               All Activity
             </h4>
@@ -103,7 +103,7 @@ const AllActivityTable = () => {
               ))}
             </div>
           </div>
-          <div className="">
+          <div className="overflow-x-auto w-[700px] lg:w-full">
             {tabs.map((tab, i) => (
               <div key={i}>
                 {currentTab === `${tab.id}` && (
