@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="">
-      <div className="bg-primary ">
+      <div className="bg-primary">
         <div className="py-16 w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
           <div className="flex flex-wrap justify-between ms:flex-col lg:flex-row items-start gap-16 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">

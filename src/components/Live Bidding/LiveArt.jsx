@@ -1,16 +1,16 @@
 import React from "react";
 import { TiFilter } from "react-icons/ti";
-import "./Switch/Switch.css";
-import { artworks } from "./ExploreImage/Contacts";
-import ArtworkCard from "./ArtworkCard";
+import "./Switch.css";
+import { lives } from "./Contacts";
+import LiveCards from "./LiveCards";
 
-const Artworks = () => {
+const LiveArt = () => {
   return (
     <div className="bg-info">
       <div className="py-10 md:pt-10 w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto ">
         <div className="flex gap-2 items-center ">
           <h1 className="text-2xl font-semibold  text-heading_text">
-            Artworks
+            Live Bidding
           </h1>
           <div className="">
             <img
@@ -100,8 +100,8 @@ const Artworks = () => {
 
         <div className="mt-10">
           <div className="flex flex-wrap justify-between items-center gap-6">
-            {artworks?.map((artwork) => (
-              <ArtworkCard key={artwork.id} artwork={artwork} />
+            {lives?.map((live) => (
+              <LiveCards key={live.id} live={live} />
             ))}
           </div>
         </div>
@@ -110,4 +110,4 @@ const Artworks = () => {
   );
 };
 
-export default Artworks;
+export default LiveArt;

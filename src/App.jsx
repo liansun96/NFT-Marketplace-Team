@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import { Route, Router, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import "animate.css";
+
 import MarketSingle from "./components/MarketSingle/MarketSingle";
 import BidHistory from "./components/MarketSingle/Nest/BidHistory";
 import Info from "./components/MarketSingle/Nest/Info";
@@ -31,9 +32,15 @@ const App = () => {
 
         <Route path="/create" element={<CreateItem />} />
 
+        <Route path="/collection" element={<Collection />} />
+
+        <Route path="/authorprofile" element={<AuthorProfile />} />
+
+        <Route path="/creators" element={<Creators />} />
+
+        <Route path="/livebidding" element={<LiveBidding />} />
         <Route path="/blog" element={<Blog />} />
 
-        <Route path="/blog-detail" element={<BlogDetail />} />
 
         <Route path="/nftactivity" element={<NFTActivity />} />
         <Route path="/collection" element={<Collection />} />

@@ -1,13 +1,13 @@
 import React from "react";
 import { IoMdHeart } from "react-icons/io";
 
-const ArtworkCard = ({ artwork }) => {
+const AuthCard = ({ card }) => {
   return (
     <div className="flex flex-col gap-4 px-5 py-4  bg-primary rounded-xl shadow-lg">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2 cursor-pointer text-sm font-semibold">
           <div className="">
-            <img src={artwork?.profile} alt="" />
+            <img src={card?.profile} alt="" />
           </div>
           <p className="text-purple">
             By <span className="text-slate-500">Jonson</span>
@@ -21,17 +21,17 @@ const ArtworkCard = ({ artwork }) => {
       </div>
       <div className="">
         <img
-          src={artwork?.image}
+          src={card?.image}
           className="md:w-[290px] lg:w-[220px] 2xl:w-[245px] 3xl:w-[255px] rounded-lg"
           alt=""
         />
       </div>
       <div className="flex justify-between items-center py-2">
         <h5 className="font-semibold text-heading_text cursor-pointer">
-          {artwork.title}
+          {card?.title}
         </h5>
         <p className="text-body_text text-sm">
-          {artwork.price}
+          {card?.price}
           {"  "}
           <span className="duration-300 text-purple hover:text-dark_blue">
             Eth
@@ -56,4 +56,4 @@ const ArtworkCard = ({ artwork }) => {
   );
 };
 
-export default ArtworkCard;
+export default AuthCard;

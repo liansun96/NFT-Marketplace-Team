@@ -1,0 +1,12 @@
+.swiper-wrapper{
+    margin-bottom:40px;
+    transition-duration: 700ms !important;
+}
+
+
+.swiper .swiper-pagination .swiper-pagination-bullet{
+    background-color:white !important;
+    transform: scale(200%) !important;
+    border: 2px solid rgb(155, 9, 155) !important;
+    margin-right: 10px !important;
+}
