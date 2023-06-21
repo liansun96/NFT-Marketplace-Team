@@ -15,12 +15,14 @@ const Nav = () => {
       <div className="py-4 bg-primary  rounded-lg">
         <div className="flex justify-between items-center px-2 md:px-4 lg:px-6">
           <div className="flex items-center gap-6">
-            <img
-              src={
-                "https://themebeyond.com/html/nftmak/assets/img/logo/naftmak.svg"
-              }
-              alt=""
-            />
+            <Link to={"/"}>
+              <img
+                src={
+                  "https://themebeyond.com/html/nftmak/assets/img/logo/naftmak.svg"
+                }
+                alt=""
+              />
+            </Link>
             <div className="h-[31px] w-[4px] rounded-[3px] bg-header_border hidden md:block"></div>
             <div className="hidden md:block">
               <div className="flex gap-3 px-2 items-center border border-[#322C50] border-dashed rounded bg-secondary">
@@ -39,7 +41,7 @@ const Nav = () => {
                 WALLET CONNECT
               </button>
             </div>
-          </div>  
+          </div>
           <div onClick={() => setIsOpen(!isOpen)}>
             <HiMenuAlt3 className="block lg:hidden cursor-pointer text-white text-4xl ms-auto" />
           </div>
@@ -76,7 +78,7 @@ const Nav = () => {
                             <NavLink to={"/ranking"}>Ranking</NavLink>
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                            <NavLink to={"/creators"}>Creators</NavLink>
+                            <NavLink to={"/collection"}>Collection</NavLink>
                           </li>
                           <li className="hover:text-dark_blue px-2 py-2 duration-300">
                             <NavLink to={"/marketsingle"}>
@@ -141,7 +143,6 @@ const Nav = () => {
               </div>
             </div>
           </div>
-                  
         </div>
       </div>
       <div className="absolute top-0 right-0 block lg:hidden">

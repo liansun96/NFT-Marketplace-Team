@@ -58,7 +58,7 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
           <div className="border border-icon_border" />
           <div className="ps-6 pe-1 my-2">
             <p className="text-base font-semibold text-heading_text hover:text-purple duration-500 cursor-pointer">
-              <NavLink to={"/collection"}>Collection</NavLink>
+              <NavLink to={"/creators"}>Creators</NavLink>
             </p>
           </div>
           <div className="border border-icon_border" />
