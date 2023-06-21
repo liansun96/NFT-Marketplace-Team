@@ -52,7 +52,7 @@ const Activity = () => {
           <div className="flex flex-col md:flex-row items-center justify-around lg:justify-between p-5 lg:px-20 lg:p-10 h-min lg:h-[200px]  mx-auto rounded-[13px] activity-bg">
             <div className="">
               <img
-                src="https://themebeyond.com/html/nftmak/assets/img/others/welcome_img01.png"
+                src="https://themebeyond.com/html/nftmak/assets/img/others/welcome_img02.png"
                 alt="welcome-img"
                 className="lg:mb-16"
               />
