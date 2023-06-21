@@ -5,7 +5,7 @@ import ExploreProductCard from "./ExploreProductCard";
 const ExploreProduct = () => {
   return (
     <div className="bg-[#070b24] h-auto flex items-center py-20">
-      <div className="w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
+      <div className="w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
         <div className="flex items-center gap-2 mb-10">
           <h4 className="text-heading_text text-2xl font-semibold">
             Explore Product

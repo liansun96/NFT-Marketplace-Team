@@ -66,6 +66,23 @@
   } 
 }
 
+@media screen and (min-width:786px){
+  .swiper .swiper-button-prev {
+    transform: translate(570px , -290px)!important;
+    padding: 10px;
+    transform: scale(0.9);
+    color: white;
+    border: 3px solid #E039FD;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+    background: rgba(0, 0, 0, 0.4) !important;
+    transition: 250ms ease;
+  } 
+}
+
 @media screen and (min-width: 1280px){
   .swiper .swiper-button-prev {
     transform: translate(990px , -265px)!important;
@@ -98,7 +115,7 @@
 
 @media screen and (min-width: 1536px){
   .swiper .swiper-button-prev {
-    transform: translate(1130px , -290px)!important;
+    transform: translate(1140px , -290px)!important;
     padding: 10px;
     transform: scale(0.9);
     color: white;

@@ -4,10 +4,10 @@ import { BsCalendar2WeekFill } from "react-icons/bs";
 
 const LatestNewsUpdateCard = ({ latestUpd }) => {
   return (
-    <div className="h-fit overflow-hidden group rounded-md relative">
+    <div className="h-fit md:w-[310px] lg:w-[350px] 2xl:w-auto overflow-hidden group rounded-md relative">
       <img
         src={latestUpd.bgImage}
-        className="duration-1000 group-hover:scale-105 -z-[10005]"
+        className="duration-1000 group-hover:scale-105 -z-[1005]"
         alt=""
       />
       <div className="bg-thumb-shadow absolute left-5 bottom-5 w-[90%] rounded-md bg-gradient-to-b from-red-600 via-primary to-secondary p-1">
