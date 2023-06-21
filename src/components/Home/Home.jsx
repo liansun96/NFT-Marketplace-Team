@@ -15,7 +15,7 @@ import Layout from "../Layout";
 const Home = () => {
   return (
     <Layout>
-      <div className="md:pl-[110px]">
+      <div className="lg:pl-[110px]">
         <Hero />
         <TopCollection />
         <FeaturesOfTheWeek />
