@@ -4,7 +4,7 @@ import { BsCalendar2WeekFill } from "react-icons/bs";
 
 const LatestNewsUpdateCard = ({ latestUpd }) => {
   return (
-    <div className="h-fit overflow-hidden group rounded-md relative">
+    <div className="h-fit md:w-[330px] overflow-hidden group rounded-md relative">
       <img
         src={latestUpd.bgImage}
         className="duration-1000 group-hover:scale-105 -z-[10005]"

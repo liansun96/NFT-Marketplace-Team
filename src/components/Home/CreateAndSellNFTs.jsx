@@ -15,7 +15,7 @@ const CreateAndSellNFTs = () => {
             alt="create-and-sell-NFTs-image"
           />
         </div>
-        <div className="flex flex-col md:flex-row justify-between gap-16 md:gap-2 mb-6">
+        <div className="flex flex-col flex-wrap md:flex-row justify-between gap-16 md:gap-6 lg:gap-2 mb-6">
           {createAndSellNFTs?.map((createAndSellNFT) => (
             <CreateAndSellNFTCard
               key={createAndSellNFT.id}

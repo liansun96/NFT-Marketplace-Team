@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <div className="w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto border border-slate-800  p-[7px] rounded-xl relative">
       <div className="py-4 bg-primary  rounded-lg">
-        <div className="flex justify-between items-center px-6">
+        <div className="flex justify-between items-center px-2 md:px-4 lg:px-6">
           <div className="flex items-center gap-6">
             <img
               src={
@@ -27,16 +27,23 @@ const Nav = () => {
                 <BiSearch className="text-icon transform -scale-x-100" />
                 <input
                   type="text"
-                  className="md:w-[200px] w-[220px] py-2 focus:outline-none bg-transparent text-white placeholder:text-xs"
+                  className="md:w-[150px] lg:w-[220px] py-2 focus:outline-none bg-transparent text-white placeholder:text-xs"
                   placeholder="Search Artwork"
                 />
               </div>
             </div>
-            <div onClick={() => setIsOpen(!isOpen)}>
-              <HiMenuAlt3 className="block md:hidden cursor-pointer text-white text-4xl ms-32" />
-            </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block lg:hidden transform duration-1000 transition hover:bg-gradient-to-l from-[#CC42E4] to-[#6345ED] bg-gradient-to-r p-1 rounded-full">
+            <div className="border border-[#fff] border-dashed bg-transparent rounded-3xl">
+              <button className="px-5 py-3 text-sm font-bold text-heading_text">
+                WALLET CONNECT
+              </button>
+            </div>
+          </div>  
+          <div onClick={() => setIsOpen(!isOpen)}>
+            <HiMenuAlt3 className="block lg:hidden cursor-pointer text-white text-4xl ms-auto" />
+          </div>
+          <div className="hidden lg:block">
             <div className="flex items-center md:gap-3 gap-8">
               <ul className="flex gap-8">
                 {navLinks?.map((navLink) => (
@@ -134,9 +141,10 @@ const Nav = () => {
               </div>
             </div>
           </div>
+                  
         </div>
       </div>
-      <div className="absolute top-0 right-0 block md:hidden">
+      <div className="absolute top-0 right-0 block lg:hidden">
         <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </div>

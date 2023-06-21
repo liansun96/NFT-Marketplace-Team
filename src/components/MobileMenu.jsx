@@ -19,12 +19,12 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
     <div
       onClick={() => setIsOpen(!isOpen)}
       className={`${
-        isOpen ? "translate-x-[500px]" : "translate-x-0"
+        isOpen ? "translate-x-[900px]" : "translate-x-0"
       } transform duration-1000 fixed  inset-0 bg-transparent bg-opacity-25  backdrop-blur-[2px] z-50 overflow-scroll`}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={` bg-primary w-[75%] min-h-screen ms-auto`}
+        className={` bg-primary w-[75%] md:w-[40%] min-h-screen ms-auto`}
       >
         <div className="flex flex-col gap-2 py-5">
           <div className="flex justify-between items-center px-6">

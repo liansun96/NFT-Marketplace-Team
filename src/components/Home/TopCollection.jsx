@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 const TopCollection = () => {
   return (
-    <div className="bg-[#070b24] flex items-center py-10">
+    <div className="bg-[#070b24] flex items-center md:py-20">
       <div className="w-[90%]  3xl:w-[70%] 4xl:w-[55%] mx-auto ">
         <div className="flex items-center gap-2 mb-10 translate-y-[100px]">
           <h4 className="text-heading_text text-2xl font-semibold ">
@@ -28,7 +28,21 @@ const TopCollection = () => {
             loop={true}
             navigation={true}
             modules={[Navigation]}
-            className="mySwiper hidden md:block"
+            className="mySwiper hidden lg:block"
+          >
+            {topcollections?.map((topcollection) => (
+              <SwiperSlide key={topcollection.id}>
+                <TopCollectionCard topcollection={topcollection} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={30}
+            loop={true}
+            navigation={true}
+            modules={[Navigation]}
+            className="mySwiper hidden md:block lg:hidden"
           >
             {topcollections?.map((topcollection) => (
               <SwiperSlide key={topcollection.id}>

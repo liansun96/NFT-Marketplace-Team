@@ -7,11 +7,11 @@ import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="hero-bg ms-auto h-[155vh] md:h-[135vh] 3xl:h-[101vh] pt-4 xl:pt-8">
+    <div className="hero-bg ms-auto h-[155vh] md:h-[80vh] lg:h-[135vh] 3xl:h-[101vh] pt-4 xl:pt-8">
       <Nav />
-      <div className="w-[95%] 3xl:w-[70%] 4xl:w-[60%] mx-auto my-20 md:my-0 md:h-[85vh] 3xl:h-[65vh] flex">
-        <div className="w-[95%] md:w-[80%] mx-auto self-center space-y-6">
-          <h1 className="text-[40px] md:text-7xl text-heading_text font-bold md:tracking-wide leading-[50px] md:leading-[90px]">
+      <div className="w-[95%] 3xl:w-[70%] 4xl:w-[60%] mx-auto my-20 md:my-0 lg:h-[85vh] 3xl:h-[65vh] flex">
+        <div className="w-[95%] md:w-[80%] mx-auto self-center space-y-6 md:my-20">
+          <h1 className="text-[40px] md:text-5xl lg:text-7xl text-heading_text font-bold lg:tracking-wide leading-[50px] md:leading-[65px] lg:leading-[90px]">
             Buy and sell <br />
             digital art <br className="hidden md:block" />
             <span className="text-purple">NFT </span>collection
@@ -41,7 +41,7 @@ const Hero = () => {
             alt="topseller-image"
           />
         </div>
-        <div className="flex flex-col md:flex-row justify-between gap-7 md:gap-2">
+        <div className="flex flex-col flex-wrap md:flex-row justify-between md:mb-20 gap-7 md:gap-5 lg:gap-2">
           {topSellers?.map((topSeller) => (
             <TopSellerCard key={topSeller.id} topSeller={topSeller} />
           ))}
