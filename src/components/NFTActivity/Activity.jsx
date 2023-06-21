@@ -54,7 +54,7 @@ const Activity = () => {
               <img
                 src="https://themebeyond.com/html/nftmak/assets/img/others/welcome_img01.png"
                 alt="welcome-img"
-                className="lg:mb-16"
+                className="mb-4 lg:mb-16"
               />
             </div>
             <div className="text-center lg:text-start space-y-4">

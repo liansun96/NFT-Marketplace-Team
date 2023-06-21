@@ -83,7 +83,7 @@ const Sidebar = () => {
             </NavLink>
           </div>
         </li>
-        {/* <div className="hidden lg:block mx-auto ms-3 lg:w-[30px] lg:py-[3px] bg-secondary rounded-[3px]"></div> */}
+        <div className="hidden lg:block mx-auto  lg:w-[30px] lg:py-[3px] bg-secondary rounded-[3px]"></div>
         <li>
           <div className="block lg:hidden mx-auto h-[30px] px-[3px] lg:w-[30px] lg:py-[3px] bg-secondary rounded-[3px]"></div>
         </li>
