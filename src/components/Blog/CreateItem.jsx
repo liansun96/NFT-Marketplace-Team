@@ -1,5 +1,5 @@
 import React from "react";
-import MidBar from "./MidBar";
+import MidBar from "../Category/MidBar";
 import Footer from "./Footer";
 import Info from "./Info";
 

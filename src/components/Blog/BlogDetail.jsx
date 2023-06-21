@@ -1,12 +1,11 @@
 import React from "react";
-import MidBar from "./MidBar";
 import Footer from "./Footer";
 import Info from "./Info";
-
 import Nav from "../Nav";
 import Rsidebar from "./Rsidebar";
 import Layout from "../Layout";
 import DetailLgCard from "./DetailLgCard";
+import MidBar from "../Category/MidBar";
 
 const BlogDetail = () => {
   return (
@@ -19,7 +18,7 @@ const BlogDetail = () => {
           </h2>
         </div>
         <div className="-mt-20 md:mt-0">
-          <MidBar />
+          <MidBar/>
         </div>
         <div className="mt-10 md:mt-16">
           <DetailLgCard />
