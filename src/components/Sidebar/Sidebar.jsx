@@ -57,13 +57,12 @@ const Sidebar = () => {
   return (
     <div className="flex flex-row md:justify-center md:flex-col px-6 w-screen h-[90px] lg:w-[110px] lg:h-screen bg-primary  fixed -bottom-2 lg:top-0 left-0 custom-shadow z-10 overflow-x-scroll">
       <ul className="flex flex-row gap-4 md:gap-7 md:justify-between md:mt-2 items-center lg:flex-col lg:gap-6 lg:mt-6">
-        <Link to={"/"}>
-          <img
-            className="block md:hidden h-10 md:w-7 lg:mt-4"
-            src="https://themebeyond.com/html/nftmak/assets/img/logo/logo.png"
-            alt=""
-          />
-        </Link>
+        <img
+          className="block md:hidden h-10 md:w-7 lg:mt-4"
+          src="https://themebeyond.com/html/nftmak/assets/img/logo/logo.png"
+          alt=""
+        />
+
         <li>
           <Link to={"/"}>
             <img
