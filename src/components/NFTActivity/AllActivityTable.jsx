@@ -126,7 +126,7 @@ const AllActivityTable = () => {
                       </td>
                       <td>
                         <div className="flex items-center gap-2">
-                          <img src={tab.priceImage[0]} alt="" />
+                          <img src={tab.priceImage} alt="" />
                           <span>{tab.price[0]}</span>
                         </div>
                       </td>
@@ -143,7 +143,7 @@ const AllActivityTable = () => {
                       </td>
                       <td>
                         <div className="flex items-center gap-2">
-                          <img src={tab.priceImage[1]} alt="" />
+                          <img src={tab.priceImage} alt="" />
                           <span>{tab.price[1]}</span>
                         </div>
                       </td>
@@ -160,7 +160,7 @@ const AllActivityTable = () => {
                       </td>
                       <td>
                         <div className="flex items-center gap-2">
-                          <img src={tab.priceImage[2]} alt="" />
+                          <img src={tab.priceImage} alt="" />
                           <span>{tab.price[2]}</span>
                         </div>
                       </td>
@@ -177,7 +177,7 @@ const AllActivityTable = () => {
                       </td>
                       <td>
                         <div className="flex items-center gap-2">
-                          <img src={tab.priceImage[3]} alt="" />
+                          <img src={tab.priceImage} alt="" />
                           <span>{tab.price[3]}</span>
                         </div>
                       </td>
@@ -194,7 +194,7 @@ const AllActivityTable = () => {
                       </td>
                       <td>
                         <div className="flex items-center gap-2">
-                          <img src={tab.priceImage[4]} alt="" />
+                          <img src={tab.priceImage} alt="" />
                           <span>{tab.price[4]}</span>
                         </div>
                       </td>
@@ -211,7 +211,7 @@ const AllActivityTable = () => {
                       </td>
                       <td>
                         <div className="flex items-center gap-2">
-                          <img src={tab.priceImage[5]} alt="" />
+                          <img src={tab.priceImage} alt="" />
                           <span>{tab.price[5]}</span>
                         </div>
                       </td>
