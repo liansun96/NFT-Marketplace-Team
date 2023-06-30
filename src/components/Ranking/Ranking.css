@@ -1,0 +1,10 @@
+.explore-bg {
+    background-image: url(https://themebeyond.com/html/nftmak/assets/img/bg/breadcrumb_bg.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+.activity-bg{
+  background: linear-gradient(90deg, #312B51 17.88%, rgba(10, 12, 36, 0.86) 99.37%);
+}

@@ -1,3 +1,5 @@
+import plugin from 'tailwindcss';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -5,9 +7,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
+  plugins: [
+    plugin(function({ addVariant }) {
+        addVariant('current', '&.active');
+    })
+],
   theme: {
     extend: {
       screens: {
+        "xs" : "540px",
         "3xl": "1920px",
         "4xl": "2560px",
       },
@@ -36,6 +44,7 @@ export default {
         dark_blue: "#6345ED",
         media_bg:"#28243F",
         dark: "#070B24",
+        table_bg:"#25223f",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],

@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="">
-      <div className="bg-primary">
-        <div className="p-5 pt-16 w-[90%] 3xl:w-[70%] 4xl:w-[60%] mx-auto">
+      <div className="bg-primary ">
+        <div className="py-16 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
           <div className="flex flex-wrap justify-between ms:flex-col lg:flex-row items-start gap-16 font-Poppins">
             <div className="flex flex-col gap-9 items-start md:w-[23%]">
               <div className="">
@@ -25,22 +25,22 @@ const Footer = () => {
                 veritatis sequi doloribus fuga.
               </p>
               <div className="flex items-center gap-2">
-                <Link to='https://www.facebook.com/' target={"_blank"}>
+                <Link to="https://www.facebook.com/" target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiFacebookFill className="text-heading_text text-xl" />
                   </div>
                 </Link>
-                <Link to={'https://www.twitter.com'} target={"_blank"}>
+                <Link to={"https://www.twitter.com"} target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiTwitterFill className="text-heading_text text-xl" />
                   </div>
                 </Link>
-                <Link to={'https://www.instagram.com'} target={"_blank"}>
+                <Link to={"https://www.instagram.com"} target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiInstagramFill className="text-heading_text text-xl" />
                   </div>
                 </Link>
-                <Link to={'https://www.pinterest.com'} target={"_blank"}>
+                <Link to={"https://www.pinterest.com"} target={"_blank"}>
                   <div className="flex justify-center items-center w-[45px] h-[45px] rounded bg-media_bg shadow-lg hover:bg-purple transition duration-500">
                     <RiPinterestFill className="text-heading_text text-xl" />
                   </div>
@@ -121,7 +121,7 @@ const Footer = () => {
                 <div className="">
                   <input
                     type="text"
-                    className="px-5 bg-transparent outline-none text-heading_text"
+                    className="px-5 bg-transparent outline-none text-heading_text w-[250px]"
                     placeholder="info@youmail.com"
                   />
                 </div>
@@ -133,8 +133,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-info">
-        <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7 px-1 lg:py-7 lg:px-16 3xl:w-[70%] mx-auto">
+      <div className="bg-info pb-20 lg:pb-0">
+        <div className=" flex flex-col lg:flex-row lg:justify-between items-center gap-3 py-7 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto">
           <div className="">
             <p className="text-body_text text-xs lg:text-sm font-semibold">
               All rights reserved © 2022 by{" "}
@@ -144,15 +144,15 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex items-center gap-1">
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Privacy Policy
             </p>
             <p className="text-icon text-sm">|</p>
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Terms And Condition
             </p>
             <p className="text-icon text-sm">|</p>
-            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-3 cursor-pointer">
+            <p className="font-semibold text-heading_text text-xs lg:text-sm hover:text-purple duration-500 px-1 cursor-pointer">
               Contact Us
             </p>
           </div>

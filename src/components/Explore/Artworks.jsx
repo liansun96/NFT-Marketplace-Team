@@ -4,10 +4,10 @@ import "./Switch/Switch.css";
 import { artworks } from "./ExploreImage/Contacts";
 import ArtworkCard from "./ArtworkCard";
 
-const Artworks = ({ isToggle, onToggle }) => {
+const Artworks = () => {
   return (
     <div className="bg-info">
-      <div className="px-3 pt-10 md:px-5 md:pt-10 lg:p-16  3xl:w-[70%] mx-auto">
+      <div className="py-10 md:pt-10 w-[90%] md:w-[85%] lg:w-[90%] 3xl:w-[70%] 4xl:w-[55%] mx-auto ">
         <div className="flex gap-2 items-center ">
           <h1 className="text-2xl font-semibold  text-heading_text">
             Artworks
@@ -31,8 +31,6 @@ const Artworks = ({ isToggle, onToggle }) => {
                 <label className="switch">
                   <input
                     type="checkbox"
-                    checked={isToggle}
-                    onChange={onToggle}
                   />
                   <span className="slider" />
                 </label>
@@ -44,8 +42,7 @@ const Artworks = ({ isToggle, onToggle }) => {
                 <label className="switch">
                   <input
                     type="checkbox"
-                    checked={isToggle}
-                    onChange={onToggle}
+                    checked
                   />
                   <span className="slider" />
                 </label>
@@ -57,8 +54,6 @@ const Artworks = ({ isToggle, onToggle }) => {
                 <label className="switch">
                   <input
                     type="checkbox"
-                    checked={isToggle}
-                    onChange={onToggle}
                   />
                   <span className="slider" />
                 </label>
@@ -70,8 +65,6 @@ const Artworks = ({ isToggle, onToggle }) => {
                 <label className="switch">
                   <input
                     type="checkbox"
-                    checked={isToggle}
-                    onChange={onToggle}
                   />
                   <span className="slider" />
                 </label>
@@ -84,8 +77,6 @@ const Artworks = ({ isToggle, onToggle }) => {
                   <label className="switch">
                     <input
                       type="checkbox"
-                      checked={isToggle}
-                      onChange={onToggle}
                     />
                     <span className="slider" />
                   </label>
@@ -108,7 +99,7 @@ const Artworks = ({ isToggle, onToggle }) => {
         </div>
 
         <div className="mt-10">
-          <div className="flex flex-wrap justify-center items-center gap-6">
+          <div className="flex flex-wrap justify-between items-center gap-6">
             {artworks?.map((artwork) => (
               <ArtworkCard key={artwork.id} artwork={artwork} />
             ))}

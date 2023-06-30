@@ -12,9 +12,9 @@ export const navLinks = [
     link: "/explore",
   },
   {
-    id: "collection",
-    title: "Collection",
-    link: "/collection",
+    id: "creators",
+    title: "Creators",
+    link: "/creators",
   },
 ];
 

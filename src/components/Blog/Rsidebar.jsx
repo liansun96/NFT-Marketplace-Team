@@ -7,6 +7,7 @@ import {
 } from "react-icons/md";
 import { FaMountain } from "react-icons/fa";
 import RCarousel from "./RCarousel";
+import { Link } from "react-router-dom";
 
 const Rsidebar = () => {
   const [show, setShow] = useState(true);
@@ -17,7 +18,11 @@ const Rsidebar = () => {
     <main>
       <div
         onClick={closeRightSideBar}
-        className={!show && "w-full h-screen ml-[110px] fixed top-0 right-0 bg-transparent"}
+        className={
+          !show
+            ? "w-full h-screen ml-[110px] fixed top-0 right-0 bg-transparent"
+            : null
+        }
       ></div>
       <div
         className={
@@ -46,9 +51,11 @@ const Rsidebar = () => {
               Author Profile
             </h2>
             <p className="text-[#C9C6AD] text-xs">Super Author</p>
-            <button className="text-white px-8 py-3 mt-8 outline-dashed outline-1 -outline-offset-[6px] text-sm font-semibold rounded-full bg-gradient-to-r from-[#7144EF] to-[#D83AFC] hover:bg-gradient-to-l transition duration-500 ">
-              CHECKOUT
-            </button>
+            <Link to={"/authorprofile"}>
+              <button className="text-white px-8 py-3 mt-8 outline-dashed outline-1 -outline-offset-[6px] text-sm font-semibold rounded-full bg-gradient-to-r from-[#7144EF] to-[#D83AFC] hover:bg-gradient-to-l transition duration-500 ">
+                CHECKOUT
+              </button>
+            </Link>
           </div>
           <div>
             <RCarousel />
