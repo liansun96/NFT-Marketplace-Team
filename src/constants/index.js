@@ -59,7 +59,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection01.jpg",
     title: "NFT Collection",
-    price: 5.4,
+    price: 5.1,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_01.png"
   },
   {
     id: "topcollection2",
@@ -68,7 +69,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection02.jpg",
     title: "Colorful Abstract",
-    price: 5.4,
+    price: 5.8,
+    creator: "https://themebeyond.com/html/nftmak/assets/img/others/creators_02.png"
   },
   {
     id: "topcollection3",
@@ -77,7 +79,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection03.jpg",
     title: "The Girl Firefly",
-    price: 5.4,
+    price: 7.4,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_03.png"
   },
   {
     id: "topcollection4",
@@ -86,7 +89,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection04.jpg",
     title: "Forest Pirncess",
-    price: 5.4,
+    price: 5.9,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_04.png"
   },
   {
     id: "topcollection5",
@@ -95,7 +99,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection05.jpg",
     title: "NFT Painting",
-    price: 5.4,
+    price: 4.9,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_05.png"
   },
   {
     id: "topcollection6",
@@ -104,7 +109,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection09.jpg",
     title: "Colorful Abstract",
-    price: 5.4,
+    price: 8.4,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_06.png"
   },
   {
     id: "topcollection7",
@@ -113,7 +119,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection10.jpg",
     title: "Bid Collection",
-    price: 5.4,
+    price: 6.4,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_04.png"
   },
   {
     id: "topcollection8",
@@ -122,7 +129,8 @@ export const topcollections = [
     image:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_collection11.jpg",
     title: "NFT Collection",
-    price: 5.4,
+    price: 5.9,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_02.png"
   },
 ];
 

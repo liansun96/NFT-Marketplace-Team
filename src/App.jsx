@@ -20,6 +20,7 @@ import Category from "./components/Category/Category";
 import BlogDetail from "./components/Blog/BlogDetail";
 import CreateItem from "./components/Blog/CreateItem";
 import Ranking from "./components/Ranking/Ranking";
+import ProductDetail from "./components/Product Detail/ProductDetail";
 const App = () => {
   return (
     <div className="font-Poppins">
@@ -30,11 +31,14 @@ const App = () => {
 
         <Route path="/collection" element={<Collection />} />
 
-        <Route path="/marketsingle" element={<MarketSingle />}>
+        <Route path="/marketsingle/:id" element={<MarketSingle />}>
           <Route path="" index element={<BidHistory />} />
           <Route path="info" element={<Info />} />
           <Route path="pro" element={<Provenance />} />
         </Route>
+
+        <Route path="/product-detail/:id" element={<ProductDetail />} />
+          
 
         <Route path="/createitem" element={<CreateItem />} />
 

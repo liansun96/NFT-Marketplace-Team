@@ -1,17 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../index.css";
 import { AiFillHeart, AiOutlineTwitter, AiOutlineRight } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
 import { TiSocialFacebook } from "react-icons/ti";
 import { HiShare } from "react-icons/hi";
 import { FaPinterestP, FaLinkedinIn, FaRocket } from "react-icons/fa";
-import { NavLink, Outlet, Route } from "react-router-dom";
+import { NavLink, Outlet, useParams , Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Nav from "../Nav";
 import Layout from "../Layout";
+import { topcollections } from "../../constants/index";
 
 
 const MarketSingle = () => {
+
+  const { id } = useParams();
+  console.log(topcollections);
+
+  const collectionId = id;
+  const collection = topcollections.find((item) => item.id === collectionId); 
+
+
   return (
     <Layout>
       <div className="sm:ms-[98px] sm:p-4 p-1  bg-[#070B24]">
@@ -21,11 +30,11 @@ const MarketSingle = () => {
           </div>
 
           <div className="my-6 mx-3 sm:mx-0 lg:mx-14 flex 3xl:mx-auto 3xl:w-3/4 3xl:px-10 justify-between lg:px-3 sm:px-4">
-            <div className="">
+            <Link to="/">
               <h1 className="sm:p-4 p-2 text-gray-300 px-4 sm:px-6 text-xs sm:text-sm rounded-full  hover:bg-[#E039FD] duration-200 bg-[#241F3D] font-semibold">
                 GO BACK TO HOME
               </h1>
-            </div>
+            </Link>
             <div className="flex items-center">
               <h1 className=" sm:px-1 mx-1  hover:text-[#E039FD]  duration-200 text-gray-300 text-sm">
                 Home
@@ -41,13 +50,13 @@ const MarketSingle = () => {
         </div>
 
         {/* container  */}
-        <div className=" col-span-8 lg:mx-14 grid gap-2 mx-auto grid-cols-8">
+        <div className="col-span-8 lg:mx-14 grid gap-2 mx-auto grid-cols-8">
           {/* img */}
           <div className="hidden 3xl:block col-span-1"></div>
-          <div className=" p-3 sm:max-md:col-span-8 col-span-8 3xl:col-span-3 lg:col-span-4">
-            <motion.img
-              className="mx-auto "
-              src="https://themebeyond.com/html/nftmak/assets/img/others/market_details_img.png"
+          <div className="bg-[#281C60] rounded-3xl sm:max-md:col-span-8 col-span-8 3xl:col-span-3 lg:col-span-4">
+            <img
+              className="mx-auto overflow-hidden rounded-3xl -translate-x-2 -translate-y-2"
+              src={collection.image}
               alt="photo"
             />
           </div>
@@ -56,8 +65,8 @@ const MarketSingle = () => {
             {/* header  */}
             <div className="flex justify-between">
               <div className="">
-                <p className="text-white font-[poppins] items-center flex h-full sm:text-[2rem] text-[1.6rem]">
-                  Anatomy Science Club
+                <p className="text-white font-[poppins] items-center flex h-full sm:text-[2rem] tracking-wider text-4xl font-bold">
+                  {collection.title}
                 </p>
               </div>
               <div className="flex items-center">
@@ -83,7 +92,7 @@ const MarketSingle = () => {
               <div className="bg-[#241F3D] shadow-xl md:max-lg:flex-col flex-none  xl:flex rounded-md p-4">
                 <img
                   className="rounded-full md:max-lg:mx-auto md:max-lg:mb-2 mx-auto xl:mx-0 md:max-lg:w-[50px] h-[50px]"
-                  src="https://themebeyond.com/html/nftmak/assets/img/others/mp_avatar01.png"
+                  src={collection.creator}
                   alt="girl"
                 />
                 <div className="md:max-lg:text-center text-center xl:ms-5">
@@ -109,7 +118,7 @@ const MarketSingle = () => {
               </div>
             </div>
             {/* text  */}
-            <p className="text-[17px] my-6 text-gray-300 mt-6">
+            <p className="text-[15px] my-10 text-body_text">
               What even is an NFT? NFT stands for non-fungible token, which
               basically means that it's one-of-kind digital asset that belongs
               to you and you only. The most popular NFTs right now include
@@ -138,19 +147,19 @@ const MarketSingle = () => {
                 <div className="mt-4  rounded-md p-1 bg-gradient-to-r from-[#5338B5] to-[#DF39FD] gap-2">
                   <div className="grid p-2 pe-3 rounded-sm bg-[#241F3D] grid-cols-4">
                     <div className="text-white text-center">
-                      <p className="font-semibold">0 0</p>
+                      <p className="font-semibold">{Math.floor(Math.random() * 31) + 1}</p>
                       <p className="text-xs font-light">DAY</p>
                     </div>
                     <div className="text-white text-center">
-                      <p className="font-semibold">0 0</p>
+                      <p className="font-semibold">{Math.floor(Math.random() * 31) + 1}</p>
                       <p className="text-xs font-light">HOURS</p>
                     </div>
                     <div className="text-white text-center">
-                      <p className="font-semibold">0 0</p>
+                      <p className="font-semibold">{Math.floor(Math.random() * 31) + 1}</p>
                       <p className="text-xs font-light">MINUT</p>
                     </div>
                     <div className="text-center text-white">
-                      <p className=" font-semibold">0 0</p>
+                      <p className=" font-semibold">{Math.floor(Math.random() * 31) + 1}</p>
                       <p className="text-xs font-light ">SECOND</p>
                     </div>
                   </div>
@@ -158,7 +167,7 @@ const MarketSingle = () => {
               </div>
             </div>
             {/* bit */}
-            <div className="mt-5 border-[3px] border-white duration-200 group hover:border-[#E039FD] p-3 rounded-full justify-center flex">
+            <div className="mt-7 border-[3px] border-white duration-200 group hover:border-[#E039FD] p-3 rounded-full justify-center flex">
               <p className="text-lg font-semibold  duration-200 group-hover:text-[#E039FD] text-white">
                 PLACE A BID
               </p>
