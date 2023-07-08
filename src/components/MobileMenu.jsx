@@ -98,10 +98,7 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
               </li>
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
                 <NavLink to={"/creators"}>Creators</NavLink>
-              </li>
-              <li className="hover:text-dark_blue px-2 py-2 duration-300">
-                <NavLink to={"/marketsingle"}>Market Single</NavLink>
-              </li>
+              </li>              
               <li className="hover:text-dark_blue px-2 py-2 duration-300">
                 <NavLink to={"/livebidding"}>Live Bidding</NavLink>
               </li>

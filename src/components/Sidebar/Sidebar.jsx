@@ -99,7 +99,7 @@ const Sidebar = () => {
         </li>
         <li>
           <div className="w-[50px] md:w-[55px] rounded-[9px] border border-icon_border p-3 transition ease-out hover:icon-bg bg-secondary">
-            <NavLink to={"/marketsingle"}>
+            <NavLink to={"/blog"}>
               <img className="w-6 md:w-8 " src={capming} alt="" />
             </NavLink>
           </div>
