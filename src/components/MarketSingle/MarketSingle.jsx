@@ -53,7 +53,7 @@ const MarketSingle = () => {
         <div className="col-span-8 lg:mx-14 grid gap-2 mx-auto grid-cols-8">
           {/* img */}
           <div className="hidden 3xl:block col-span-1"></div>
-          <div className="bg-[#281C60] rounded-3xl sm:max-md:col-span-8 col-span-8 3xl:col-span-3 lg:col-span-4">
+          <div className="bg-[#281C60] scale-95 rounded-3xl sm:max-md:col-span-8 col-span-8 3xl:col-span-3 lg:col-span-4">
             <img
               className="mx-auto overflow-hidden rounded-3xl -translate-x-2 -translate-y-2"
               src={collection.image}
@@ -118,7 +118,7 @@ const MarketSingle = () => {
               </div>
             </div>
             {/* text  */}
-            <p className="text-[15px] my-10 text-body_text">
+            <p className="text-[15px] my-9 text-body_text">
               What even is an NFT? NFT stands for non-fungible token, which
               basically means that it's one-of-kind digital asset that belongs
               to you and you only. The most popular NFTs right now include
