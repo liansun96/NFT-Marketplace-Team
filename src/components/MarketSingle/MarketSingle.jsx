@@ -55,7 +55,7 @@ const MarketSingle = () => {
           <div className="hidden 3xl:block col-span-1"></div>
           <div className="bg-[#281C60] scale-95 rounded-3xl sm:max-md:col-span-8 col-span-8 3xl:col-span-3 lg:col-span-4">
             <img
-              className="mx-auto overflow-hidden rounded-3xl -translate-x-2 -translate-y-2"
+              className="mx-auto w-full overflow-hidden rounded-3xl -translate-x-2 -translate-y-2"
               src={collection.image}
               alt="photo"
             />

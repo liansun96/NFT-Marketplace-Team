@@ -57,8 +57,8 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection01.jpg",
-    title: "NFT Collection",
+      "https://i.seadn.io/gae/lenZ3y5d7SMv_Jfd9IKm-1nVQCIyNAtROW9vgdZRkMjvXQzP5wxz5qCPPk4niiqpVcrLVdz9htj8Q9Ga0tU0_tJgIkZhrFFjPIgr?w=500&auto=format",
+    title: "Bored Ape Yacht",
     price: 5.1,
     creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_01.png"
   },
@@ -67,7 +67,7 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection02.jpg",
+      "https://i.seadn.io/gae/l3gsBH9gOWTCT-l3nfZlQ9VTsevIVfaGSOYdFY0ozCrqMHYcL4kFO0m7IVDURJbeLXWwJpxMtSojIFKwr3x1KGs2Z8Sf7ScfoNJl?w=500&auto=format",
     title: "Colorful Abstract",
     price: 5.8,
     creator: "https://themebeyond.com/html/nftmak/assets/img/others/creators_02.png"
@@ -77,8 +77,8 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection03.jpg",
-    title: "The Girl Firefly",
+      "https://i.seadn.io/gcs/files/6008ed2c7a779b7d708575e438c015a4.png?w=500&auto=format",
+    title: "Pudgy Penguins",
     price: 7.4,
     creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_03.png"
   },
@@ -87,8 +87,8 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection04.jpg",
-    title: "Forest Pirncess",
+      "https://i.seadn.io/gcs/files/0129b38b219c8d76544b0d711ce9777a.png?w=500&auto=format",
+    title: "KILLABEARS",
     price: 5.9,
     creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_04.png"
   },
@@ -97,8 +97,8 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection05.jpg",
-    title: "NFT Painting",
+      "https://i.seadn.io/gcs/files/a450a6798dbce15561f95011906e14e2.png?w=500&auto=format",
+    title: "KILLABEARS",
     price: 4.9,
     creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_05.png"
   },
@@ -107,18 +107,18 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection09.jpg",
-    title: "Colorful Abstract",
-    price: 8.4,
-    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_06.png"
+      "https://i.seadn.io/gcs/files/3d245ab9702279b77714e7a0157378cb.png?w=500&auto=format",
+    title: "Star Wolvez",
+    price: 7.4,
+    creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_03.png"
   },
   {
     id: "topcollection7",
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection10.jpg",
-    title: "Bid Collection",
+      "https://i.seadn.io/gcs/files/828707b7a0298edf43a3a4561b8bd73f.png?w=500&auto=format",
+    title: "Dreadfulz",
     price: 6.4,
     creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_04.png"
   },
@@ -127,8 +127,8 @@ export const topcollections = [
     profile:
       "https://themebeyond.com/html/nftmak/assets/img/others/top_col_avatar.png",
     image:
-      "https://themebeyond.com/html/nftmak/assets/img/others/top_collection11.jpg",
-    title: "NFT Collection",
+      "https://i.seadn.io/gae/engEfQyDjcKQI8qRkyyMPgVGNeRxGSjZ10eY1CvmecZSFAalNshvn0YPFGPyqu8tFZd7laEvb5d4yNhTAMTthOLNBhV8UWNTRwy-?w=500&auto=format",
+    title: "Bored Ape Yacht Club",
     price: 5.9,
     creator:"https://themebeyond.com/html/nftmak/assets/img/others/creators_02.png"
   },
